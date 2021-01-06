@@ -18,14 +18,12 @@ int main(){
 	//Now perform a binary search
 
 	int lp=0, rp = n-1;
-	int mid;
-	mid = (lp + rp) / 2;
+	int mid = n/2;
 
-	while(arr[mid]!=k){
-		mid = (lp + rp) / 2;
+	while(arr[mid]!=k && lp <= rp){
 		if(arr[mid] > k) rp = mid - 1;
 		else if(arr[mid] < k) lp = mid + 1;
-
+		mid = (lp + rp) / 2;		
 	}
 
 	std::cout << mid;
