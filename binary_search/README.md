@@ -55,3 +55,25 @@ int main(){
         return 1;
 }
 ```
+
+## Solution Diagram
+
+```mermaid
+graph TD;
+  A{Start with the sorted array}
+  B{Set left and right pointers}
+  C{Find the middle element}
+  D{Compare middle element with search element}
+  E{If search element found, return index}
+  F{If search element is less than middle element, move left pointer}
+  G{If search element is greater than middle element, move right pointer}
+  
+  A --> B;
+  B --> C;
+  C --> D;
+  D -->|Equal| E;
+  D -->|Less than| F;
+  D -->|Greater than| G;
+  F --> B;
+  G --> B;
+```
