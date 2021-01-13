@@ -22,3 +22,38 @@ graph TD
     E --> |Swap 66 and 21| F[1,3,8,9,21,24,66]
     F --> |Swap 24 and 66 are in position| G[1,3,8,9,21,24,66]
 ```
+
+### Code
+```
+#include <iostream>
+
+int main(){
+    int n;
+    std::cin >> n;
+
+    int a[n];
+    for(int i=0;i<n;i++){
+        std::cin >> a[i];
+    }
+
+    for(int i=0;i<n-1;i++){
+        int minIdx = i;
+        for(int j=i+1;j<n;j++){
+            if(a[j] < a[minIdx]){
+                minIdx = j;
+            }
+        }
+        
+        int temp = a[i];
+        a[i] = a[minIdx];
+        a[minIdx] = temp;
+    }
+    
+    for(int i=0;i<n;i++){
+        std::cout << a[i] << " ";
+    }
+
+    return 0;
+}
+
+```
