@@ -13,6 +13,7 @@ Let **a[7] = {8,3,66,24,1,9,21}**
 
 We have to use two loops.
 First traverse from **0** to **n-2** and in the inner loop traverse from **1 to n-1**
+Find the minimum element and swap with the current active element.
 
 ```mermaid
 graph TD
