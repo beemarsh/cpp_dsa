@@ -7,6 +7,8 @@ There are different sorting methods.
 - Insertion Sort
 
 ## Selection Sort
+
+### Time Complexity : O [$e^{2}$]
 In a selection sort, we find the minimum element in the array and swap it with the current element.
 Let an array **a** of size **n**
 Let **a[7] = {8,3,66,24,1,9,21}**
