@@ -60,3 +60,9 @@ int main(){
 }
 
 ```
+
+## Bubble Sort
+In bubble sort, we find the compare two elements and swap the maximum element to the right. This way the maximum element gets pushed to the right most side.
+
+Let an array **a** of size **n**
+Let **a[7] = {8,3,66,24,1,9,21}**
