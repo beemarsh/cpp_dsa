@@ -66,3 +66,13 @@ In bubble sort, we find the compare two elements and swap the maximum element to
 
 Let an array **a** of size **n**
 Let **a[7] = {8,3,66,24,1,9,21}**
+
+First we loop array **a** from **i=0** to **i=n-2**. In the inner loop we loop from **j=i** to **j=n-1**
+
+| Pass | Array | Swapped Elements |
+| --- | --- | --- |
+| Initial | 8 3 66 24 1 9 21 | - |
+| 1 | 3 8 24 1 9 21 66 | 3 and 24 |
+| 2 | 3 1 8 9 21 24 66 | 1 and 8<br>24 and 9 |
+| 3 | 1 3 8 9 21 24 66 | 8 and 1<br>66 and 24 |
+| 4 | 1 3 8 9 21 24 66 | - |
