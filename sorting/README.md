@@ -124,4 +124,4 @@ Let **a[7] = {8,3,66,24,1,9,21}**
   - Decrease j i.e. **j--**
 - Now when we are out of loop, we are now in our desired position. So replace the element in  **a[j+1]** with the current element i.e **a[j+1] = curr**
 
-
+### Table Explaination :
