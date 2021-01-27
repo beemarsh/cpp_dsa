@@ -125,3 +125,13 @@ Let **a[7] = {8,3,66,24,1,9,21}**
 - Now when we are out of loop, we are now in our desired position. So replace the element in  **a[j+1]** with the current element i.e **a[j+1] = curr**
 
 ### Table Explaination :
+
+| **Initial Array** | **Sorted Array** | **Explanation** |
+| --- | --- | --- |
+| 8 3 66 24 1 9 21 | 3 8 66 24 1 9 21 | The first element, 8, is already in the correct place |
+| 3 8 66 24 1 9 21 | 3 8 66 24 1 9 21 | The second element, 3, is already in the correct place |
+| 3 8 66 24 1 9 21 | 3 8 66 24 1 9 21 | The third element, 66, is already in the correct place |
+| 3 8 66 24 1 9 21 | 3 8 24 66 1 9 21 | The fourth element, 24, is smaller than 66, so it is inserted before 66 |
+| 3 8 24 66 1 9 21 | 1 3 8 24 66 9 21 | The fifth element, 1, is smaller than 3, so it is inserted before 3 |
+| 1 3 8 24 66 9 21 | 1 3 8 9 24 66 21 | The sixth element, 9, is smaller than 24, so it is inserted before 24 |
+| 1 3 8 9 24 66 21 | 1 3 8 9 21 24 66 | The seventh element, 21, is smaller than 66, so it is inserted before 66 |
