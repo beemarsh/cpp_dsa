@@ -135,3 +135,35 @@ Let **a[7] = {8,3,66,24,1,9,21}**
 | 3 8 24 66 1 9 21 | 1 3 8 24 66 9 21 | The fifth element, 1, is smaller than 3, so it is inserted before 3 |
 | 1 3 8 24 66 9 21 | 1 3 8 9 24 66 21 | The sixth element, 9, is smaller than 24, so it is inserted before 24 |
 | 1 3 8 9 24 66 21 | 1 3 8 9 21 24 66 | The seventh element, 21, is smaller than 66, so it is inserted before 66 |
+
+### Code
+
+```
+#include <iostream>
+
+int main()
+{
+  int n;
+  std::cin >> n;
+
+  int a[n];
+  for (int i = 0; i < n; i++) {
+    std::cin >> a[i];
+  }
+
+  for (int i = 1; i < n; i++) {
+    int curr = a[i];
+    int j = i - 1;
+    while (a[j] > curr && j >= 0) {
+      a[j + 1] = a[j];
+      j--;
+    }
+    a[j + 1] = curr;
+  }
+
+  for (int i = 0; i < n; i++) {
+    std::cout << a[i] << " ";
+  }
+  return 1;
+}
+```
