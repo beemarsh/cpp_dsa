@@ -62,6 +62,9 @@ int main(){
 ```
 
 ## Bubble Sort
+
+### Time Complexity : O[$n^{2}$]
+
 In bubble sort, we find the compare two elements and swap the maximum element to the right. This way the maximum element gets pushed to the right most side.
 
 Let an array **a** of size **n**
