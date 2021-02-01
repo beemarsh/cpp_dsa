@@ -15,3 +15,18 @@ Let an array **a** of size **n**
 Let **a[7] = {8,3,66,24,1,9,21}**
 For example: **{8,66}**, **{1,9,21}**, **{21}**, **{66,1,21}**, **{8,21}**
 Number of sub sequence in an array of size **n** is $2^{n}$
+
+### Remember:
+```mermaid
+%%{init: {'theme': 'neutral'}}%%
+    %%{init: {'themeVariables': { 'primaryColor': '#336699', 'secondaryColor': '#AFDCEC', 'tertiaryColor': '#fff', 'primaryFontFamily': 'Segoe UI', 'secondaryFontFamily': 'Segoe UI' }}}%%
+    %%{init: {'sequence': {'wrap': true}}}%%
+    
+    sequenceDiagram
+        participant subarray
+        participant subsequence
+        autonumber
+        
+        subarray->>+subsequence: All subarrays are subsequences
+        subsequence->>-subarray: Not all subsequences are subarrays
+```
