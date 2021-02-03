@@ -1,27 +1,28 @@
-#include <iostream>
 #include <climits>
+#include <iostream>
 
-int main(){
-	
-	int n;
-	std::cin >> n;
+int main()
+{
 
-	int a[n+1];
-	for(int i=0;i<n;i++){
-		std::cin>> a[i];
-	}
+  int n;
+  std::cin >> n;
 
-	a[n] = INT_MIN;
-	
-	int max = INT_MIN;
-	int rb_days = 0;
+  int a[n + 1];
+  for (int i = 0; i < n; i++) {
+    std::cin >> a[i];
+  }
 
-	for(int i=0;i<n;i++){
-		if(a[i] > max && a[i] > a[i+1]){
-			rb_days++;
-		}
-		max = std::max(max,a[i]);
-	}
+  a[n] = INT_MIN;
 
-	std::cout << rb_days;
+  int max = INT_MIN;
+  int rb_days = 0;
+
+  for (int i = 0; i < n; i++) {
+    if (a[i] > max && a[i] > a[i + 1]) {
+      rb_days++;
+    }
+    max = std::max(max, a[i]);
+  }
+
+  std::cout << rb_days;
 }
