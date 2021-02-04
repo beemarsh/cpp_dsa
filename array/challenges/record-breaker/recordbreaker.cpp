@@ -1,4 +1,3 @@
-#include <climits>
 #include <iostream>
 
 int main()
@@ -12,9 +11,8 @@ int main()
     std::cin >> a[i];
   }
 
-  a[n] = INT_MIN;
-
-  int max = INT_MIN;
+  a[n] = -1;
+  int max = -1;
   int rb_days = 0;
 
   for (int i = 0; i < n; i++) {
