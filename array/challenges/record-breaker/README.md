@@ -27,3 +27,17 @@ Memory limit: 1GB.
 
 **Test set 2**
 1 ≤ **N** ≤ 2 × $10^{5}$ for at most 10 test cases.
+
+## Solution
+**Constraints Analysis**
+
+1 sec = $10^{8}$ operations
+20 sec = 2x$10^{8}$ operations
+
+**Brute Force Approach**
+Iterate over all the elements and check if it is record breaking day or not.
+Note: To check if **a[i]** is a record breaking day, we have to iterate over **a[0]**,
+**a[1]**,...., **a[i-1]**.
+
+Time complexity for this operation: **O(n)**
+Overall Time Complexity: **O($n^{2}$)**
