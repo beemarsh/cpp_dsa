@@ -41,3 +41,16 @@ Note: To check if **a[i]** is a record breaking day, we have to iterate over **a
 
 Time complexity for this operation: **O(n)**
 Overall Time Complexity: **O($n^{2}$)**
+
+**Optimised Approach**
+
+We can optimize the solution by keeping track of the maximum element. i.e we dont need to loop over everytime to compare with each day. We just compare it with the largest one.
+For this, we will keep a variable **max**, which will store the maximum value till **a[i]**.
+Then we just need to check,
+```a[i] > max && a[i] > a[i+1]```
+and update **mx**
+`` mx = max(mx, a[i])``
+
+Overall time complexity: **O(n)**
+
+
