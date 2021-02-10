@@ -53,7 +53,6 @@ and update **mx**
 
 Overall time complexity: **O(n)**
 
-
 ## Code
 ```
 #include <iostream>
