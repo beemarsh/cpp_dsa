@@ -37,7 +37,7 @@
 	- #### Constraints Analysis
 		1 sec = $10^{8}$ operations
 		
-		20 sec = 2x$10^{8}$ operations
+		20 sec = 2 x $10^{8}$ operations
 
 	-	#### Brute Force Approach
 
