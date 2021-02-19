@@ -6,3 +6,8 @@
 	
 	Sarasvati has an array of N non-negative integers. The $i^{th}$ integer of the array is A~i~. She wants to choose a contiguous arithmetic subarray from her array that has the maximum length. 
 **Please help her to determine the length of the longest contiguous arithmetic subarray.**
+
+- ## Input
+	The first line of the input gives the number of test cases, T. T test cases follow. Each test case begins with a line containing the integer N. The second line contains N integers. The $i^{th}$ integer is A~i~
+
+
