@@ -13,4 +13,28 @@
 - ## Output
 	For each test case, output one line containing **Case #x: y**, where **x** is the test case number (starting from 1) and **y** is the length of the longest contiguous arithmetic subarray.
 	
+- ## Constraints
 
+	Time limit: 20 seconds per test set.
+Memory limit: 1GB.
+1 ≤ T ≤ 100.
+0 ≤ Ai ≤ 109
+.
+Test Set 1
+2 ≤ N ≤ 2000.
+Test Set 2
+2 ≤ N ≤ 2 × 105 for at most 10 test cases.
+For the remaining cases, 2 ≤ N ≤ 2000.
+
+	**Time limit:** 20 seconds per test set
+
+	**Memory limit:** 1GB
+
+	1 ≤ **T** ≤ 100:
+	0 ≤ **A~i~** ≤ $10^{9}$
+	
+	#### Test set 1 :
+	2 ≤ **N** ≤ 2000
+
+	#### Test set 2 :
+	2 ≤ **N** ≤ 2 × $10^{5}$ for at most 10 test cases.
