@@ -1,3 +1,4 @@
+
 # Longest Arithmetic Sub array
 ### Google Kick Start Question
 
@@ -38,7 +39,7 @@ For the remaining cases, 2 ≤ N ≤ 2000.
 
 	#### Test set 2 :
 	2 ≤ **N** ≤ 2 × $10^{5}$ for at most 10 test cases.
-	
+
 - ## Solution
 
 	- #### Constraints Analysis
@@ -67,3 +68,34 @@ For the remaining cases, 2 ≤ N ≤ 2000.
 		``maxlen = std::max(maxlen,len);``
 
 		Overall time complexity: **O [ n ]**
+
+-	## Code
+```
+#include <iostream>
+
+int main() {
+  int n;
+  std::cin >> n;
+
+  int a[n];
+  for (int i = 0; i < n; i++) {
+    std::cin >> a[i];
+  }
+
+  int maxlen = 1;
+  int diff = a[1] - a[0];
+  int len = 1;
+
+  for (int i = 1; i < n; i++) {
+    if (a[i] - a[i - 1] == diff) {
+      len++;
+    } else {
+      len = 2;
+      diff = a[i] - a[i - 1];
+    }
+
+    maxlen = std::max(maxlen, len);
+  }
+  std::cout << maxlen;
+}
+```
