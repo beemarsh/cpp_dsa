@@ -68,6 +68,19 @@ For the remaining cases, 2 ≤ N ≤ 2000.
 		``maxlen = std::max(maxlen,len);``
 
 		Overall time complexity: **O [ n ]**
+	- #### Flow Chart
+
+		```mermaid
+		graph TD
+	    A[Initialize variables] --> B[Loop through each index]
+		B --> C[Check if there are at least 2 elements in the subarray]
+	    C -- Yes --> D[Calculate common difference]
+	    D --> E[Extend subarray as far as possible]
+	    E --> F[Update maximum length]
+	    F --> G[Continue loop]
+	    C -- No --> G[Continue loop]
+	    G --> H[Output maximum length]
+		```
 
 -	## Code
 ```
