@@ -19,19 +19,21 @@
 	Time limit: 20 seconds per test set.
 Memory limit: 1GB.
 1 ≤ T ≤ 100.
-0 ≤ Ai ≤ 109
-.
-Test Set 1
-2 ≤ N ≤ 2000.
-Test Set 2
-2 ≤ N ≤ 2 × 105 for at most 10 test cases.
+0 ≤ A~i~ ≤ 109
+
+	- ### Test Set 1
+		2 ≤ N ≤ 2000
+		
+	- ### Test Set 2
+		2 ≤ N ≤ 2 × $10^{5}$ for at most 10 test cases.
 For the remaining cases, 2 ≤ N ≤ 2000.
 
 	**Time limit:** 20 seconds per test set
 
 	**Memory limit:** 1GB
 
-	1 ≤ **T** ≤ 100:
+	1 ≤ **T** ≤ 100
+	
 	0 ≤ **A~i~** ≤ $10^{9}$
 	
 	#### Test set 1 :
@@ -45,14 +47,17 @@ For the remaining cases, 2 ≤ N ≤ 2000.
 	- #### Constraints Analysis
 		1 sec = $10^{8}$ operations
 		
-		20 sec = 2x$10^{9}$ operations
+		20 sec = 2 x $10^{9}$ operations
 
 	-	#### Optimised Approach
 
 		We can solve the problem by looping over the array from **i=1** to **n-1**
-		We need to keep track of the maximum length **maxlen** and the current length **len** for which the sub array is arithmetic.
+		We need to keep track of the maximum length **maxlen** and the current length **len** for which the sub array is arithmetic
+		
 		We also need to keep track of the previous difference **diff**
-		If the previous difference **diff** and the current difference **a[i] - a[i-1]** are equal, then we increase the current length **len**.
+		
+		If the previous difference **diff** and the current difference **a[i] - a[i-1]** are equal, then we increase the current length **len**
+		
 		```
 		if (a[i + 1] - a[i] == diff) {
 	      len++;
@@ -64,23 +69,25 @@ For the remaining cases, 2 ≤ N ≤ 2000.
 			len=2
 		}
 		```
-		Now we compare current length and maximum length to keep the highest value.
+		Now we compare current length and maximum length to keep the highest value
+		
 		``maxlen = std::max(maxlen,len);``
 
 		Overall time complexity: **O [ n ]**
+		
 	- #### Flow Chart
 
-		```mermaid
-		graph TD
-	    A[Initialize variables] --> B[Loop through each index]
-		B --> C[Check if there are at least 2 elements in the subarray]
-	    C -- Yes --> D[Calculate common difference]
-	    D --> E[Extend subarray as far as possible]
-	    E --> F[Update maximum length]
-	    F --> G[Continue loop]
-	    C -- No --> G[Continue loop]
-	    G --> H[Output maximum length]
-		```
+```mermaid
+	graph TD
+	A[Initialize variables] --> B[Loop through each index]
+	B --> C[Check if there are at least 2 elements in the subarray]
+    C -- Yes --> D[Calculate common difference]
+    D --> E[Extend subarray as far as possible]
+    E --> F[Update maximum length]
+    F --> G[Continue loop]
+    C -- No --> G[Continue loop]
+    G --> H[Output maximum length]
+```
 
 -	## Code
 ```
