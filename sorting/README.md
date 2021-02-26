@@ -1,3 +1,4 @@
+
 # Sorting
 ### Sorting means arranging the elements in a certain order. In this chapter, we will be sorting numbers in an array in an ascending order.
 
@@ -6,16 +7,21 @@ There are different sorting methods.
 - Bubble Sort
 - Insertion Sort
 
-## Selection Sort
+- ## Selection Sort
 
-### Time Complexity : O [$e^{2}$]
-In a selection sort, we find the minimum element in the array and swap it with the current element.
-Let an array **a** of size **n**
-Let **a[7] = {8,3,66,24,1,9,21}**
+	### Time Complexity : O [ $e^{2}$ ]
 
-We have to use two loops.
-First traverse from **0** to **n-2** and in the inner loop traverse from **1 to n-1**
-Find the minimum element and swap with the current active element.
+	In a selection sort, we find the minimum element in the array and swap it with the current element.
+	
+	Let an array **a** of size **n**
+	
+	Let **a[7] = {8,3,66,24,1,9,21}**
+
+	We have to use two loops.
+	
+	First traverse from **0** to **n-2** and in the inner loop traverse from **1 to n-1**
+	
+	Find the minimum element and swap with the current active element.
 
 ```mermaid
 graph TD
@@ -61,16 +67,17 @@ int main(){
 
 ```
 
-## Bubble Sort
+- ## Bubble Sort
 
-### Time Complexity : O[$n^{2}$]
+	### Time Complexity : O[ $n^{2}$ ]
 
-In bubble sort, we find the compare two elements and swap the maximum element to the right. This way the maximum element gets pushed to the right most side.
+	In bubble sort, we find the compare two elements and swap the maximum element to the right. This way the maximum element gets pushed to the right most side.
 
-Let an array **a** of size **n**
-Let **a[7] = {8,3,66,24,1,9,21}**
+	Let an array **a** of size **n**
+	
+	Let **a[7] = {8,3,66,24,1,9,21}**
 
-First we loop array **a** from **i=0** to **i=n-2**. In the inner loop we loop from **j=i** to **j=n-1**
+	First we loop array **a** from **i=0** to **i=n-2**. In the inner loop we loop from **j=i** to **j=n-1**
 
 | Pass | Array | Swapped Elements |
 | --- | --- | --- |
@@ -113,21 +120,23 @@ int main(){
 }
 ```
 
-## Insertion Sort
-In insertion sort, we consider the first element to be sorted. Then we take the second element and insert it in its place in a sorted array i.e either before or after the first element. Now the two elements are sorted. This way we insert each element in its place in the sorted array and shift the other elements.
-### Time Complexity : O[$n^{2}$]
-Let an array **a** of size **n**
-Let **a[7] = {8,3,66,24,1,9,21}**
+-	## Insertion Sort
+	In insertion sort, we consider the first element to be sorted. Then we take the second element and insert it in its place in a sorted array i.e either before or after the first element. Now the two elements are sorted. This way we insert each element in its place in the sorted array and shift the other elements.
+	### Time Complexity : O[ $n^{2}$ ]
 
-- First we loop array **a** from **i=1** to **i=n-1**.
-- Then we keep track of current element i.e **curr = a[i]**
-- Lets keep track of the element just behind i.e **j=i-1**
-- Loop while the previous element is greater than current element i.e. **a[j] > curr && j >=0**
-  - Swap the previous element with the current element i.e. **a[j+1] = a[j]**
-  - Decrease j i.e. **j--**
-- Now when we are out of loop, we are now in our desired position. So replace the element in  **a[j+1]** with the current element i.e **a[j+1] = curr**
+	Let an array **a** of size **n**
+	
+	Let **a[7] = {8,3,66,24,1,9,21}**
 
-### Table Explaination :
+	- First we loop array **a** from **i=1** to **i=n-1**.
+	- Then we keep track of current element i.e **curr = a[i]**
+	- Lets keep track of the element just behind i.e **j=i-1**
+	- Loop while the previous element is greater than current element i.e. **a[j] > curr && j >=0**
+	  - Swap the previous element with the current element i.e. **a[j+1] = a[j]**
+	  - Decrease j i.e. **j--**
+	- Now when we are out of loop, we are now in our desired position. So replace the element in  **a[j+1]** with the current element i.e **a[j+1] = curr**
+
+	### Table Explaination :
 
 | **Initial Array** | **Sorted Array** | **Explanation** |
 | --- | --- | --- |
