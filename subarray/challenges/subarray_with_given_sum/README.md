@@ -10,3 +10,11 @@
 	S = 12
 	
 	A[] = {1,2,3,7,5}
+	
+- ## Output
+	
+	The sum of elements from 2nd position to 4th position is 12
+		
+	`` 2 4 ``
+	
+
