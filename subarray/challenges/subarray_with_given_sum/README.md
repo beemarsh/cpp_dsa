@@ -59,3 +59,14 @@
 		```
 
 		Overall time complexity: **O [ n ]**
+		
+	- #### Table
+
+| Variable | Description |
+| --- | --- |
+| `n` | The number of elements in the array |
+| `S` | The target sum that we are trying to find |
+| `a` | The input array |
+| `rp` | The right pointer that points to the end of the current subarray |
+| `lp` | The left pointer that points to the start of the current subarray |
+| `currSum` | The sum of the current subarray |
