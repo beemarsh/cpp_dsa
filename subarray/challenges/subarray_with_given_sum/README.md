@@ -1,3 +1,4 @@
+
 # Sub array with given Sum
 ### Google, Amazon, Facebook, Visa Interview Question
 
@@ -70,3 +71,16 @@
 | `rp` | The right pointer that points to the end of the current subarray |
 | `lp` | The left pointer that points to the start of the current subarray |
 | `currSum` | The sum of the current subarray |
+
+In array **a = {1,2,3,7,5}**
+
+| `a[rp]` | `currSum` | Action taken | `lp` | `rp` |
+| --- | --- | --- | --- | --- |
+| - | 0 | - | 0 | 0 |
+| 4 | 4 | + | 0 | 1 |
+| 3 | 7 | + | 0 | 2 |
+| 10 | 17 | + | 0 | 3 |
+| 5 | 22 | + | 0 | 4 |
+| - | 12 | - | 1 | 4 |
+| - | 7 | - | 2 | 4 |
+| 6 | 13 | + | 2 | 5 |
