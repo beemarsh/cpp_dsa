@@ -4,25 +4,25 @@
 
 - ## Problem
 	Given an unsorted array **A** of size **N** of non-negative integers, find a continuous subarray which adds to a given number **S**
-	
+
 - ## Input
 	N = 5
 	
 	S = 12
 	
 	A[] = {1,2,3,7,5}
-	
+
 - ## Output
 	
 	The sum of elements from 2nd position to 4th position is 12
 		
 	`` 2 4 ``
-
+	
 - ## Constraints
 
 	1 <= N <= $10^{5}$
 	0 <= Ai <=  $10^{10}$
-	
+
 - ## Solution
 
 	-	#### Optimised Approach
@@ -60,7 +60,6 @@
 		```
 
 		Overall time complexity: **O [ n ]**
-		
 	- #### Table
 
 | Variable | Description |
@@ -84,6 +83,7 @@ In array **a = {1,2,3,7,5}**
 | - | 12 | - | 1 | 4 |
 | - | 7 | - | 2 | 4 |
 | 6 | 13 | + | 2 | 5 |
+
 
 -	## Code
 ```
