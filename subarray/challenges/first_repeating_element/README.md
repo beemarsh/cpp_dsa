@@ -9,3 +9,10 @@
 	7
 
 	1 5 3 4 3 5 6
+
+- ## Output
+	
+	The sum of elements from 2nd position to 4th position is 12
+		
+	`` 1``
+	
