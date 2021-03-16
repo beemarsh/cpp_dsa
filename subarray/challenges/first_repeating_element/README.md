@@ -15,4 +15,9 @@
 	The sum of elements from 2nd position to 4th position is 12
 		
 	`` 1``
+
+- ## Constraints
+
+	1 <= n <= $10^{6}$
 	
+	0 <= Ai <=  $10^{6}$
