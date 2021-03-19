@@ -56,3 +56,20 @@
 
 		``if(checkA[a[i]] != -1) minIdx = std::min(minIdx,checkA[a[i]]);``
 		We can solve the problem by looping over the array from **i=0** to **n-1**
+		
+		Overall time complexity: **O [ n ]**
+		
+	- #### Flow Chart
+		```mermaid
+		graph TD
+		A[Start] --> B[Input n]
+		B --> C["Input array a[ n ] "]
+		C --> D["Set checkA[i] = -1 for i=0 to 1e6+2"]
+		D --> E[Initialize minIdx = INT_MAX]
+		E --> F["For i=0 to n-1 do"]
+		F --> G["If checkA[a[i]] == -1"]
+		G --> H["Then checkA[a[i]] = i"]
+		H --> I["Else minIdx = min(minIdx, checkA[a[i]])"]
+		I --> J[Output minIdx]
+		J --> K[Stop]	
+	```
