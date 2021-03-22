@@ -37,16 +37,16 @@
 
 		Then fill the check array with -1
 
-		```mermaid
-		graph LR;
-	    A[[-1]]---B[[-1]]
+```mermaid
+	graph LR;
+		A[[-1]]---B[[-1]]
 	    B---C[[-1]]
 	    C---D[[-1]]
 	    D---E[[-1]]
 	    E---F[[-1]]
 	    F---G[[-1]]
 	    G---H[[-1]]
-		```
+```
 
 		Now loop the array from **i=0** to **i=n-1**
 
