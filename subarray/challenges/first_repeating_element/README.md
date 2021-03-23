@@ -37,8 +37,8 @@
 
 		Then fill the check array with -1
 
-```mermaid
-	graph LR;
+		```mermaid
+		graph LR;
 		A[[-1]]---B[[-1]]
 	    B---C[[-1]]
 	    C---D[[-1]]
@@ -46,7 +46,7 @@
 	    E---F[[-1]]
 	    F---G[[-1]]
 	    G---H[[-1]]
-```
+		```
 
 		Now loop the array from **i=0** to **i=n-1**
 
@@ -62,7 +62,7 @@
 		Overall time complexity: **O [ n ]**
 		
 	- #### Flow Chart
-		```mermaid
+```mermaid
 		graph TD
 		A[Start] --> B[Input n]
 		B --> C["Input array a[ n ] "]
