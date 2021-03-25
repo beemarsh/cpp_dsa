@@ -38,27 +38,32 @@
 		Then fill the check array with -1
 
 ```mermaid
-	graph TD;
-	A-->B;
-	A-->C;
-	B-->D;
-	C-->D;
+		graph LR;
+		A[[-1]]---B[[-1]]
+	    B---C[[-1]]
+	    C---D[[-1]]
+	    D---E[[-1]]
+	    E---F[[-1]]
+	    F---G[[-1]]
+	    G---H[[-1]]
 ```
 
-		Now loop the array from **i=0** to **i=n-1**
+Now loop the array from **i=0** to **i=n-1**
 
-		Now fill check array at $i^{th}$ element of the array with **i**. i.e.
+Now fill check array at $i^{th}$ element of the array with **i**. i.e.
 
-		``checkA[a[i]] = i;``
+``checkA[a[i]] = i;``
 
-		We also have to check if the check array is not -1. If it is not -1,we have to keep track of the minimum index.
+We also have to check if the check array is not -1. If it is not -1,we have to keep track of the minimum index.
 
-		``if(checkA[a[i]] != -1) minIdx = std::min(minIdx,checkA[a[i]]);``
-		We can solve the problem by looping over the array from **i=0** to **n-1**
+``if(checkA[a[i]] != -1) minIdx = std::min(minIdx,checkA[a[i]]);``
 
-		Overall time complexity: **O [ n ]**
+We can solve the problem by looping over the array from **i=0** to **n-1**
+
+Overall time complexity: **O [ n ]**
 		
-	- #### Flow Chart
+
+#### Flow Chart
 ```mermaid
 		graph TD
 		A[Start] --> B[Input n]
