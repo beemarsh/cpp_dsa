@@ -25,3 +25,14 @@ Example:
 1 <= n <= $10^{6}$
 	
 0 <= A~i~ <=  $10^{6}$
+
+## Solution
+
+- ####  Approach
+
+	First  we initialize a Boolean array `checkA` of size `1e6 + 2` with all elements set to false.
+	
+	Next, we loops through the elements in the input array `a` and marks the corresponding index in `checkA` as true if the element is non-negative.
+	
+	Finally, we loops through the `checkA` array and print out the index of the first false element, which represents the smallest positive integer that is not present in the input array.
+		
