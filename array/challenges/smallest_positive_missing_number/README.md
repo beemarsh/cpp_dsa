@@ -1,3 +1,4 @@
+
 # Smallest Positive Missing Number
 ###  Amazon, Samsung, Snap Deal, Accolite Interview Question
 
@@ -15,11 +16,12 @@ Example:
 
 0, -9, 1, 3, -4, 5
 
+
 ## Output
 	
 		
 `` 2``
-
+	
 ## Constraints
 
 1 <= n <= $10^{6}$
@@ -35,7 +37,8 @@ Example:
 	Next, we loops through the elements in the input array `a` and marks the corresponding index in `checkA` as true if the element is non-negative.
 	
 	Finally, we loops through the `checkA` array and print out the index of the first false element, which represents the smallest positive integer that is not present in the input array.
-	
+		
+
 ## Flow Chart
 ```mermaid
 	graph TD;
@@ -47,7 +50,7 @@ Example:
     B --> C
     C --> D
 ```
-		
+
 ## Code
 ```
 #include <iostream>
