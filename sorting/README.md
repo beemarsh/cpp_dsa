@@ -109,3 +109,19 @@ int main(){
 	return 1;
 }
 ```
+
+## Insertion Sort
+In insertion sort, we consider the first element to be sorted. Then we take the second element and insert it in its place in a sorted array i.e either before or after the first element. Now the two elements are sorted. This way we insert each element in its place in the sorted array and shift the other elements.
+### Time Complexity : O[$n^{2}$]
+Let an array **a** of size **n**
+Let **a[7] = {8,3,66,24,1,9,21}**
+
+- First we loop array **a** from **i=1** to **i=n-1**.
+- Then we keep track of current element i.e **curr = a[i]**
+- Lets keep track of the element just behind i.e **j=i-1**
+- Loop while the previous element is greater than current element i.e. **a[j] > curr && j >=0**
+  - Swap the previous element with the current element i.e. **a[j+1] = a[j]**
+  - Decrease j i.e. **j--**
+- Now when we are out of loop, we are now in our desired position. So replace the element in  **a[j+1]** with the current element i.e **a[j+1] = curr**
+
+
