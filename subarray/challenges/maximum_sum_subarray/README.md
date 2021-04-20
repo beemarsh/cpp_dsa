@@ -61,3 +61,29 @@ Example:
 	
 	**Time Complexity** : O [ n ]
 	
+## Flow Chart
+```mermaid
+	graph TD
+    subgraph Initialization
+        A[Initialize maxSum and currentSum to minimum integer value]
+    end
+
+    subgraph Loop through the array
+        B[Loop through the array from left to right]
+        C[Add current element to currentSum]
+        D[If currentSum > maxSum, update maxSum]
+        E[If currentSum < 0, reset currentSum to 0]
+    end
+
+    subgraph Output maxSum
+        F[Output maxSum]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> B
+    B -->|Loop finished| F
+
+```
