@@ -89,3 +89,30 @@ Example:
 ```
 
 ## Code
+
+### 1. Brute Force Method
+```
+#include <climits>
+#include <iostream>
+
+int main() {
+  int n;
+  std::cin >> n;
+
+  int a[n];
+  for (int i = 0; i < n; i++) {
+    std::cin >> a[i];
+  }
+
+  int max_sum = INT_MIN;
+  for (int i = 0; i < n; i++) {
+    int sum = 0;
+    for (int j = i; j < n; j++) {
+      sum += a[j];
+      max_sum = std::max(max_sum, sum);
+    }
+  }
+
+  std::cout << max_sum;
+}
+```
