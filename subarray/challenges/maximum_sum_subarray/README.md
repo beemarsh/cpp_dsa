@@ -116,3 +116,38 @@ int main() {
   std::cout << max_sum;
 }
 ```
+
+### 2. Prefix Sum Method
+
+```
+#include <iostream>
+#include <climits>
+
+int main(){
+	int n;
+	std::cin >> n;
+
+	int a[n];
+	for(int i=0;i<n;i++){
+		std::cin >> a[i];
+	}
+
+	int cumsum[n+1];
+	cumsum[0] = 0;
+
+	for(int i=1;i<=n;i++){
+		cumsum[i] = a[i-1] + cumsum[i-1];
+	}
+
+	int max_sum = INT_MIN;
+	for(int i=1;i<=n;i++){
+		int sum = 0;
+		for(int j=1;j<=i;j++){
+			sum  = cumsum[i] - cumsum[j-1];
+			max_sum = std::max(max_sum,sum);
+		}
+	}
+
+	std::cout << max_sum;
+}
+```
