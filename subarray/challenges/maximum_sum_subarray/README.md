@@ -1,3 +1,4 @@
+
 # Maximum Sub Sub array
 
 ## Problem
@@ -14,10 +15,12 @@ Example:
 
 1 -4 2 -5 3 -1 5
 
+
 ## Output
 	
 		
 `` 7``
+
 
 ## Solution
 
@@ -32,8 +35,7 @@ Example:
 	After the nested loop completes for the current element, it moves to the next element and repeats the same process of finding the maximum sum of subarrays starting from that element.
 
 	**Time Complexity** : O [ $n^{2}$ ]
-	
-	
+
 - ### Prefix Sum Approach
 	
 	Initialize an array `cumsum` of size `n+1` to store the prefix sum of the input array. 
@@ -47,7 +49,7 @@ Example:
 	Update the `max_sum` variable with the maximum value seen so far between the current `max_sum` and the new `sum`. This ensures that `max_sum` contains the largest sum seen so far in any subarray.
 
 	**Time Complexity** : O [ $n^{2}$ ]
-	
+
 - ### Kadanes Algorithm
 
 	The intuition behind Kadane's algorithm is that if the sum of a subarray becomes negative, there is no reason to include that subarray in any future calculation of the maximum sum. Instead, we can start a new subarray from the next element.
@@ -61,6 +63,8 @@ Example:
 	
 	**Time Complexity** : O [ n ]
 	
+		
+
 ## Flow Chart
 ```mermaid
 	graph TD
@@ -151,7 +155,6 @@ int main(){
 	std::cout << max_sum;
 }
 ```
-
 ### 3. Kadanes Algorithm
 ```
 #include <climits>
