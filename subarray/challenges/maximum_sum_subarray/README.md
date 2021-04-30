@@ -7,7 +7,6 @@ Find the maximum sum in the subarray.
 
 Example:  
 **[1, -5, 3, 4, -2]**
-
 **Ans = 7**
 
 ## Input
@@ -57,9 +56,9 @@ Example:
 	
 	1.  Initialize two variables maxSum minimum integer value. and currentSum to 0.
 	2.  Loop through the array from left to right: 
-		- Add the current element to the `currentSum` variable. 
-		- If the `currentSum` is greater than the `maxSum`, update the `maxSum`. 
+		- Add the current element to the `currentSum` variable.  
 		- If the `currentSum` becomes negative, reset it to zero.
+		- If the `currentSum` is greater than the `maxSum`, update the `maxSum`.
 	3.  After the loop, the maxSum variable will contain the maximum sum of a subarray in the array.
 	
 	**Time Complexity** : O [ n ]
@@ -76,8 +75,8 @@ Example:
     subgraph Loop through the array
         B[Loop through the array from left to right]
         C[Add current element to currentSum]
-        D[If currentSum > maxSum, update maxSum]
-        E[If currentSum < 0, reset currentSum to 0]
+        D[If currentSum < 0, reset currentSum to 0]
+        E[If currentSum > maxSum, update maxSum]
     end
 
     subgraph Output maxSum
