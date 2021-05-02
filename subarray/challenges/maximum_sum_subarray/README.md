@@ -53,6 +53,7 @@ Example:
 - ### Kadanes Algorithm
 
 	The intuition behind Kadane's algorithm is that if the sum of a subarray becomes negative, there is no reason to include that subarray in any future calculation of the maximum sum. Instead, we can start a new subarray from the next element.
+	**Limitation of Kadanes Algorithm** :   Kadane’s Algorithm only works for arrays with at least one positive number. If all numbers in the array are negative, the algorithm will return 0 as the maximum subarray sum.
 	
 	1.  Initialize two variables maxSum minimum integer value. and currentSum to 0.
 	2.  Loop through the array from left to right: 
