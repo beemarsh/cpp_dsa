@@ -1,5 +1,5 @@
 
-# Maximum Sub Sub array
+# Maximum Sum Sub array
 
 ## Problem
 
