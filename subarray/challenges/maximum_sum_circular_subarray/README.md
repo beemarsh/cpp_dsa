@@ -19,3 +19,5 @@ Example:
 ## Output
 	
 `` 8``
+
+## Solution
