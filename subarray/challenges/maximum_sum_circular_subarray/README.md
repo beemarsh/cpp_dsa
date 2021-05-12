@@ -39,3 +39,13 @@ Example:
 	**Time Complexity** : O [ n ]
 	
 ## Diagram
+
+```mermaid
+graph LR
+A[1] --- B[-4]
+B --- C[2]
+C --- D[-5]
+D --- E[3]
+E --- F[-1]
+F --- G[5]
+```
