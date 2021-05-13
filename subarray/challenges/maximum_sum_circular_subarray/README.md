@@ -49,3 +49,15 @@ D --- E[3]
 E --- F[-1]
 F --- G[5]
 ```
+
+Calculate the total sum of the array and then multiply all the elements by -1.
+The array now looks like this.
+```mermaid
+graph LR
+A[-1] --- B[4]
+B --- C[-2]
+C --- D[5]
+D --- E[-3]
+E --- F[1]
+F --- G[-5]    
+```
