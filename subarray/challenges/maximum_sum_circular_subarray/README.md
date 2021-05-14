@@ -61,3 +61,11 @@ D --- E[-3]
 E --- F[1]
 F --- G[-5]    
 ```
+
+Total Sum = (1 + -4 + 2 + -5 + 3 + -1 + 5) = 1
+
+Now using Kadanes algorithm, get the maximum sum in the negated array. This is the sum of minimum possible sub array.
+
+Minimum Sum = (4 + -2 + 5) = 7
+
+So, Maximum Sum = Total Sum - -(Minimum Sum) = Total Sum + Minimum Sum = 1 + 7 = 8
