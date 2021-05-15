@@ -69,3 +69,5 @@ Now using Kadanes algorithm, get the maximum sum in the negated array. This is t
 Minimum Sum = (4 + -2 + 5) = 7
 
 So, Maximum Sum = Total Sum - -(Minimum Sum) = Total Sum + Minimum Sum = 1 + 7 = 8
+
+## Flow Chart
