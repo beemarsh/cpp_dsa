@@ -71,3 +71,17 @@ Minimum Sum = (4 + -2 + 5) = 7
 So, Maximum Sum = Total Sum - -(Minimum Sum) = Total Sum + Minimum Sum = 1 + 7 = 8
 
 ## Flow Chart
+
+```mermaid
+graph TD;
+    A[Start] --> B[Input n];
+    B --> C[Input Array];
+    C --> D[Initialize totalSum to 0];
+    D --> E[Calculate totalSum];
+    E --> F[Negate all elements of the array];
+    F --> G[Find maximum sum using Kadane's algorithm];
+    G --> H[Add totalSum to maximum sum];
+    H --> I[Print maximum circular sum];
+    I --> J[Stop];
+
+```
