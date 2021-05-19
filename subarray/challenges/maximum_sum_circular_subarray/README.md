@@ -1,3 +1,4 @@
+
 # Maximum Sum Circular Sub array
 
 ## Problem
@@ -16,11 +17,14 @@ Example:
 
 1 -4 2 -5 3 -1 5
 
+
 ## Output
 	
 `` 8``
 
+
 ## Solution
+
 
 - ### Kadanes Algorithm Approach
 
@@ -38,6 +42,7 @@ Example:
 	
 	**Time Complexity** : O [ n ]
 	
+		
 ## Diagram
 
 ```mermaid
@@ -49,7 +54,6 @@ D --- E[3]
 E --- F[-1]
 F --- G[5]
 ```
-
 Calculate the total sum of the array and then multiply all the elements by -1.
 The array now looks like this.
 ```mermaid
@@ -61,7 +65,6 @@ D --- E[-3]
 E --- F[1]
 F --- G[-5]    
 ```
-
 Total Sum = (1 + -4 + 2 + -5 + 3 + -1 + 5) = 1
 
 Now using Kadanes algorithm, get the maximum sum in the negated array. This is the sum of minimum possible sub array.
@@ -71,7 +74,6 @@ Minimum Sum = (4 + -2 + 5) = 7
 So, Maximum Sum = Total Sum - -(Minimum Sum) = Total Sum + Minimum Sum = 1 + 7 = 8
 
 ## Flow Chart
-
 ```mermaid
 graph TD;
     A[Start] --> B[Input n];
