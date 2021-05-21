@@ -14,8 +14,8 @@ int main() {
   int currentSum = 0;
   for (int i = 0; i < n; i++) {
     currentSum += a[i];
-    maxSum = std::max(currentSum, maxSum);
     if (currentSum < 0) currentSum = 0;
+    maxSum = std::max(currentSum, maxSum);
   }
   std::cout << maxSum;
 }
