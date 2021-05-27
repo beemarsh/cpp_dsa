@@ -11,3 +11,5 @@ Example:
 **Sum = 7**
 
 **Ans = 1   3**
+
+## Input
