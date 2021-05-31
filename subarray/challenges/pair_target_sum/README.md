@@ -23,3 +23,5 @@ Example:
 ## Output
 
 `` 4  6``
+
+## Solution
