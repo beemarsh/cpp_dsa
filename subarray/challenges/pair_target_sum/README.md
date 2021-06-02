@@ -37,3 +37,4 @@ This process continues until the sum is equal to K or there are no more elements
 
 The pointers `lp` and `rp` are are the indices of the two numbers whose sum is equal to the target value K.
 	
+**Time Complexity** : O [ n ]
