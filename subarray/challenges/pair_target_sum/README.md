@@ -40,3 +40,5 @@ The pointers `lp` and `rp` are are the indices of the two numbers whose sum is e
 **Time Complexity** : O [ n ]
 
 **Note** : For this approach the array should be sorted. If not then we should first sort the array.
+
+## Flow Chart
