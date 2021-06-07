@@ -1,3 +1,4 @@
+
 # Pair Target Sum
 
 ## Problem
@@ -13,16 +14,18 @@ Example:
 **Ans = 1   3**
 
 ## Input
-
+	
 7
 
 8
 
 1 -4 2 -5 3 -1 5
 
-## Output
 
+## Output
+	
 `` 4  6``
+
 
 ## Solution
 
@@ -40,9 +43,8 @@ The pointers `lp` and `rp` are are the indices of the two numbers whose sum is e
 **Time Complexity** : O [ n ]
 
 **Note** : For this approach the array should be sorted. If not then we should first sort the array.
-
+	
 ## Flow Chart
-
 ```mermaid
 graph TD;
   A(Input array size n and target sum K);
@@ -66,7 +68,6 @@ graph TD;
 ```
 
 ## Code
-
 ```
 #include <iostream>
 
