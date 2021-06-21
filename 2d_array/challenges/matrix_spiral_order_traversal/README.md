@@ -57,4 +57,5 @@ respectively. These variables keep track of the indices of the current row and c
 3.  The traversal of the array is complete when all the elements have been printed.
 
 Overall, this algorithm traverses the array in a spiral order by starting at the top left corner and moving towards the center in a clockwise direction.
-	
+
+**Time Complexity** : O [ $n^{2}$ ]
