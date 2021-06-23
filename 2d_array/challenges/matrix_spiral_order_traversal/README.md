@@ -61,3 +61,15 @@ Overall, this algorithm traverses the array in a spiral order by starting at the
 **Time Complexity** : O [ $n^{2}$ ]
 
 ## Flow Chart
+
+```mermaid
+graph TD;
+  Start((Start)) --> Input((Input n and m));
+  Input --> CreateArray{"Create Array a[n][m]"};
+  CreateArray --> Loop1[Loop through rows];
+  Loop1 --> Loop2[Loop through columns];
+  Loop2 --> Output(Output element);
+  Output --> Condition{Is row_start <= row_end AND col_start <= col_end?};
+  Condition -- Yes --> Loop1;
+  Condition -- No --> Stop((Stop));
+```
