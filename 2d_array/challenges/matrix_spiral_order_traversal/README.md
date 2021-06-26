@@ -1,3 +1,4 @@
+
 # Matrix Spiral Order Traversal
 
 ## Problem
@@ -5,6 +6,7 @@
 We have to print the given 2D matrix in the spiral order. Spiral Order means that firstly, first row is printed, then last column is printed, then last row is printed and then first column is printed, then we will come inwards in the similar way.
 
 |  1 |  5 |  7 |  9 | 10 |
+
 
 Example:  
 
@@ -25,7 +27,7 @@ The spiral order traversal would be:
 **1  2  3  4  5  10 15 20 25 30  29 28 27 26 21  16 11 6  7  8  9  14 19 24 23 22  17 12 13 18**
 
 ## Input
-
+	
 6 5
 
 1 2 3 4 5
@@ -36,13 +38,13 @@ The spiral order traversal would be:
 26 27 28 29 30
 
 ## Output
-
 	
 ``1  2  3  4  5  10 15 20 25 30  29 28 27 26 21  16 11 6  7  8  9  14 19 24 23 22  17 12 13 18``
 
+
 ## Solution
 
-respectively. These variables keep track of the indices of the current row and column being traversed.
+1.  Initialize four variables `row_start`, `row_end`, `col_start`, and `col_end` to 0, `n - 1`, 0, and `m - 1`, respectively. These variables keep track of the indices of the current row and column being traversed.
 
 2.  While `row_start` is less than or equal to `row_end` and `col_start` is less than or equal to `col_end`, do the following:
 
@@ -57,11 +59,10 @@ respectively. These variables keep track of the indices of the current row and c
 3.  The traversal of the array is complete when all the elements have been printed.
 
 Overall, this algorithm traverses the array in a spiral order by starting at the top left corner and moving towards the center in a clockwise direction.
-
+	
 **Time Complexity** : O [ $n^{2}$ ]
-
+	
 ## Flow Chart
-
 ```mermaid
 graph TD;
   Start((Start)) --> Input((Input n and m));
@@ -75,7 +76,6 @@ graph TD;
 ```
 
 ## Code
-
 ```cpp
 #include <iostream>
 
