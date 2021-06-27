@@ -5,9 +5,6 @@
 
 We have to print the given 2D matrix in the spiral order. Spiral Order means that firstly, first row is printed, then last column is printed, then last row is printed and then first column is printed, then we will come inwards in the similar way.
 
-|  1 |  5 |  7 |  9 | 10 |
-
-
 Example:  
 
 Let us consider the following 2D array of size 6 * 5
@@ -31,11 +28,17 @@ The spiral order traversal would be:
 6 5
 
 1 2 3 4 5
+
 6 7 8 9 10
+
 11 12 13 14 15
+
 16 17 18 19 20
+
 21 22 23 24 25
+
 26 27 28 29 30
+
 
 ## Output
 	
