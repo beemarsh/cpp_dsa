@@ -28,3 +28,5 @@ The transpose of the matrix would be:
 | **2** |  3 |  8 | 13 | 18 | 23 |
 | **3** |  4 |  9 | 14 | 19 | 24 |
 | **4** |  5 | 10 | 15 | 20 | 25 |
+
+## Input
