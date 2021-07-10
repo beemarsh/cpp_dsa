@@ -52,3 +52,5 @@ The transpose of the matrix would be:
 4 9 14 19 24
 5 10 15 20 25
 ```
+
+## Solution
