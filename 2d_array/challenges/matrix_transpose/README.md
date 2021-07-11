@@ -54,3 +54,7 @@ The transpose of the matrix would be:
 ```
 
 ## Solution
+
+We use two nested loops to iterate over the upper-right triangular portion of the matrix (including the diagonal). For each pair of elements `a[i][j]` and `a[j][i]` in this portion, we swap their values. This has the effect of reflecting the matrix along its diagonal, effectively transposing the matrix.
+
+Overall, this algorithm traverses the array in a spiral order by starting at the top left corner and moving towards the center in a clockwise direction.
