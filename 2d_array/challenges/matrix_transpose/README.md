@@ -62,3 +62,20 @@ Overall, this algorithm traverses the array in a spiral order by starting at the
 **Time Complexity** : O [ $n^{2}$ ]
 
 ## Flow Chart
+
+```mermaid
+graph TD
+A[Start] --> B[Input the size of matrix n]
+B --> C[Initialize a 2D array with size n * n]
+C --> D[Input elements of the array]
+D --> E[Transpose the matrix]
+E --> F[Output the transposed matrix]
+F --> G[Stop]
+
+subgraph Transpose the matrix
+  E --> H[Loop through the rows of the matrix]
+  H --> I[Loop through the columns of the matrix]
+  I --> J["Swap the elements of a[i][j] with a[j][i]"]
+end
+
+```
