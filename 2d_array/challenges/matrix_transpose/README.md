@@ -1,3 +1,4 @@
+
 # Matrix Transpose
 
 ## Problem
@@ -29,8 +30,9 @@ The transpose of the matrix would be:
 | **3** |  4 |  9 | 14 | 19 | 24 |
 | **4** |  5 | 10 | 15 | 20 | 25 |
 
-## Input
 
+## Input
+	
 5
 
 1 2 3 4 5
@@ -43,8 +45,9 @@ The transpose of the matrix would be:
 
 21 22 23 24 25
 
-## Output
 
+## Output
+	
 ```
 1 6 11 16 21
 2 7 12 17 22
@@ -53,16 +56,17 @@ The transpose of the matrix would be:
 5 10 15 20 25
 ```
 
+
 ## Solution
 
 We use two nested loops to iterate over the upper-right triangular portion of the matrix (including the diagonal). For each pair of elements `a[i][j]` and `a[j][i]` in this portion, we swap their values. This has the effect of reflecting the matrix along its diagonal, effectively transposing the matrix.
 
 Overall, this algorithm traverses the array in a spiral order by starting at the top left corner and moving towards the center in a clockwise direction.
-
+	
 **Time Complexity** : O [ $n^{2}$ ]
 
+	
 ## Flow Chart
-
 ```mermaid
 graph TD
 A[Start] --> B[Input the size of matrix n]
@@ -81,7 +85,6 @@ end
 ```
 
 ## Code
-
 ```cpp
 #include <iostream>
 
