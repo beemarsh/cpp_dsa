@@ -9,7 +9,7 @@ The transpose of a matrix is the matrix flipped over it's main diagonal,switchin
 
 Example:  
 
-Let us consider the following 2D array of size 6 * 5
+Let us consider the following 2D array of size 5 * 5
 
 |     |  0 |  1 |  2 |  3 |  4 |
 |-----|----|----|----|----|----|
