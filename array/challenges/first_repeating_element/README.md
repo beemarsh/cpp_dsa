@@ -79,7 +79,7 @@ Overall time complexity: **O [ n ]**
 ```
 
 -	## Code
-```
+```cpp
 #include <climits>
 #include <iostream>
 
