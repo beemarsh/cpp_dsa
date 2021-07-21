@@ -90,7 +90,7 @@ For the remaining cases, 2 ≤ N ≤ 2000.
 ```
 
 -	## Code
-```
+```cpp
 #include <iostream>
 
 int main() {
