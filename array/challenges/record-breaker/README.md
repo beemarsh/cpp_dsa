@@ -65,7 +65,7 @@
 		Overall time complexity: **O(n)**
 
 -	## Code
-```
+```cpp
 #include <iostream>
 
 int main()
