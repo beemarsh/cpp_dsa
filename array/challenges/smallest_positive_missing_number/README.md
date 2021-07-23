@@ -54,7 +54,7 @@ Example:
 ```
 
 ## Code
-```
+```cpp
 #include <iostream>
 
 int main() {
