@@ -20,7 +20,7 @@ Now, **mid** is the index of **K**
 ### Solution
 
 
-```
+```cpp
 #include <iostream>
 
 int main(){
