@@ -33,7 +33,7 @@ graph TD
 ```
 
 ### Code
-```
+```cpp
 #include <iostream>
 
 int main(){
@@ -89,7 +89,7 @@ int main(){
 
 ### Code
 
-```
+```cpp
 #include <iostream>
 
 int main(){
@@ -150,7 +150,7 @@ int main(){
 
 ### Code
 
-```
+```cpp
 #include <iostream>
 
 int main()
