@@ -89,7 +89,7 @@ graph TD;
 ```
 
 ## Code
-```
+```cpp
 #include <climits>
 #include <iostream>
 
