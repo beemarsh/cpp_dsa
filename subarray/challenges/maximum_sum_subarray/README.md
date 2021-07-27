@@ -96,7 +96,7 @@ Example:
 ## Code
 
 ### 1. Brute Force Method
-```
+```cpp
 #include <climits>
 #include <iostream>
 
@@ -124,7 +124,7 @@ int main() {
 
 ### 2. Prefix Sum Method
 
-```
+```cpp
 #include <iostream>
 #include <climits>
 
@@ -157,7 +157,7 @@ int main(){
 }
 ```
 ### 3. Kadanes Algorithm
-```
+```cpp
 #include <climits>
 #include <iostream>
 
