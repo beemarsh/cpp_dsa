@@ -68,7 +68,7 @@ graph TD;
 ```
 
 ## Code
-```
+```cpp
 #include <iostream>
 
 int main() {
