@@ -87,7 +87,7 @@ In array **a = {1,2,3,7,5}**
 
 
 -	## Code
-```
+```cpp
 #include <iostream>
 
 int main() {
