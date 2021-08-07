@@ -14,11 +14,14 @@ int main() {
     }
   }
 
-  for (int i = 0; i < n; i++) {
-    for (int j = 0; j < m; j++) {
-      if (a[i][j] == K) {
-        std::cout << i << " " << j;
-      }
-    }
+  int r=0,c=m-1;
+
+  while(a[r][c] != K && r<n && c >= 0){
+	if(a[r][c] > K) r++;
+	else if(a[r][c] < K) c--;
+	else break;
   }
+ 
+ if(a[r][c] == K ) std::cout << r << " " << c;
+ else std::cout << "Not Found";
 }
