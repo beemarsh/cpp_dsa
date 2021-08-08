@@ -14,14 +14,19 @@ int main() {
     }
   }
 
-  int r=0,c=m-1;
+  int r = 0, c = m - 1;
 
-  while(a[r][c] != K && r<n && c >= 0){
-	if(a[r][c] > K) r++;
-	else if(a[r][c] < K) c--;
-	else break;
+  while (a[r][c] != K && r < n && c >= 0) {
+    if (a[r][c] > K)
+      r++;
+    else if (a[r][c] < K)
+      c--;
+    else
+      break;
   }
- 
- if(a[r][c] == K ) std::cout << r << " " << c;
- else std::cout << "Not Found";
+
+  if (a[r][c] == K)
+    std::cout << r << " " << c;
+  else
+    std::cout << "Not Found";
 }
