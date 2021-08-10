@@ -15,17 +15,20 @@ int main() {
   }
 
   int r = 0, c = m - 1;
+  bool found = false;
 
-  while (a[r][c] != K && r < n && c >= 0) {
+  while (r < n && c >= 0) {
     if (a[r][c] > K)
-      r++;
-    else if (a[r][c] < K)
       c--;
-    else
+    else if (a[r][c] < K)
+      r++;
+    else {
+      found = true;
       break;
+    }
   }
 
-  if (a[r][c] == K)
+  if (found)
     std::cout << r << " " << c;
   else
     std::cout << "Not Found";
