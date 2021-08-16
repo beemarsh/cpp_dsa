@@ -27,3 +27,7 @@ Given target = 5, return true.
 Given target = 20, return false.
 
 ## Constraints
+
+1 <= N
+
+M <= 1,000
