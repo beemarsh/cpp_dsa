@@ -31,3 +31,5 @@ Given target = 20, return false.
 1 <= N
 
 M <= 1,000
+
+## Input
