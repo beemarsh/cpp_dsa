@@ -51,3 +51,5 @@ M <= 1,000
 ## Output
 
 `1 2`
+
+## Solution
