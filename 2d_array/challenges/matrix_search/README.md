@@ -57,3 +57,5 @@ M <= 1,000
 - ### Brute Force Approach
 
 Search for a given element in a sorted 2D array by scanning each element of the array from left to right and top to bottom until the element is found or until the end of the array is reached.
+
+	**Time Complexity** : O [ n * m ]
