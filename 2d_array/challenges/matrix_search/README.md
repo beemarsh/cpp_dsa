@@ -90,3 +90,10 @@ int main() {
 ```
 
 - ### Optimized Approach
+
+	Initialize the starting position at the top-right corner of the array, since this is the maximum value in the row and the minimum value in the column. 
+
+	Then loop until the element is found or the column and row get out of index.
+	
+	- Check whether the current element is greater or lesser than the element to be searched. 
+	- Based on this comparison, it either moves down to the next row (if the current element is lesser than the element to be searched) or moves to the previous column (if the current element is greater than the element to be searched).
