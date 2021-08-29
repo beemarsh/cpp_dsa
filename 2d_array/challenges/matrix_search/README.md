@@ -99,3 +99,5 @@ int main() {
 	- Based on this comparison, it either moves down to the next row (if the current element is lesser than the element to be searched) or moves to the previous column (if the current element is greater than the element to be searched).
 	
 	**Time Complexity** : O [ n + m ]
+	
+	### Flow chart:
