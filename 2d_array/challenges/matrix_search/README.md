@@ -101,3 +101,21 @@ int main() {
 	**Time Complexity** : O [ n + m ]
 	
 	### Flow chart:
+	
+	```mermaid
+graph TD
+A[Start] --> B[Input n, m, K]
+B --> C["Input array a[n][m]"]
+C --> D[Initialize r=0, c=m-1, found=false]
+D --> E{r<n and c>=0}
+E -- Yes --> F{"a[r][c] > K"}
+E -- No --> G[Not Found]
+F -- Yes --> H[Decrease c by 1]
+F -- No --> I{"a[r][c] < K"}
+I -- Yes --> J[Increase r by 1]
+I -- No --> K[Set found=true and break]
+H --> E
+J --> E
+K --> L[Output r and c]
+G --> L
+```
