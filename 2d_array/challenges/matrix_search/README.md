@@ -1,3 +1,4 @@
+
 # 2D Matrix Search
 
 ## Problem
@@ -9,6 +10,7 @@ Write an algorithm to find that the given value exists in the matrix or not.
 **Integers in each row are sorted in ascending from left to right.**
 
 **Integers in each column are sorted in ascending from top to bottom.**
+
 
 **Example:**
 
@@ -33,7 +35,7 @@ Given target = 20, return false.
 M <= 1,000
 
 ## Input
-
+	
 5 5
 
 5
@@ -48,21 +50,23 @@ M <= 1,000
 
 18, 21, 23, 26, 30
 
+
 ## Output
 
 `1 2`
+
 
 ## Solution
 
 - ### Brute Force Approach
 
-Search for a given element in a sorted 2D array by scanning each element of the array from left to right and top to bottom until the element is found or until the end of the array is reached.
-
-	**Time Complexity** : O [ n * m ]
+	Search for a given element in a sorted 2D array by scanning each element of the array from left to right and top to bottom until the element is found or until the end of the array is reached.
 	
-		### Brute Force Code
-		
-	```cpp
+	**Time Complexity** : O [ n * m ]
+
+	### Brute Force Code
+
+```cpp
 #include <iostream>
 
 int main() {
@@ -99,10 +103,10 @@ int main() {
 	- Based on this comparison, it either moves down to the next row (if the current element is lesser than the element to be searched) or moves to the previous column (if the current element is greater than the element to be searched).
 	
 	**Time Complexity** : O [ n + m ]
-	
+
 	### Flow chart:
-	
-	```mermaid
+
+```mermaid
 graph TD
 A[Start] --> B[Input n, m, K]
 B --> C["Input array a[n][m]"]
