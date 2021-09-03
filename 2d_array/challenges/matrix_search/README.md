@@ -53,3 +53,5 @@ M <= 1,000
 `1 2`
 
 ## Solution
+
+- ### Brute Force Approach
