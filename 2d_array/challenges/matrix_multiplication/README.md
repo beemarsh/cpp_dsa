@@ -32,3 +32,5 @@ Let us consider the following two 2D array matrices a~1~ and a~2~ of size 3 * 4 
 |  **0** |  33 |  42 |  51 |
 |  **1** |  69 |  90 |  111 |
 |  **2** |  112 |  134 |  156 |
+
+## Constraints
