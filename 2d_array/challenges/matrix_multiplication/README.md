@@ -38,3 +38,5 @@ Let us consider the following two 2D array matrices a~1~ and a~2~ of size 3 * 4 
 1 <= n~1~
 
 m~1~, n~2~ <= 1,000
+
+## Input
