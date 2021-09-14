@@ -40,3 +40,19 @@ Let us consider the following two 2D array matrices a~1~ and a~2~ of size 3 * 4 
 m~1~, n~2~ <= 1,000
 
 ## Input
+
+```	
+3 4
+4 3
+```
+```
+2 4 1 2
+8 4 3 6
+1 7 9 5
+```
+```
+1 2 3
+4 5 6
+7 8 9
+4 5 6
+```
