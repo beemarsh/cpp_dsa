@@ -65,3 +65,5 @@ m~1~, n~2~ <= 1,000
 ```
 
 ## Solution
+
+**Note: If the number of columns of the first matrix is not equal to the number of rows of the second matrix, then matrix multiplication is not possible.**
