@@ -80,3 +80,5 @@ In summary, the code performs the following steps:
 4.  Multiply the two matrices and store the result in a new matrix
 5.  Print the new matrix
 	
+	
+	**Time Complexity** : O [ n~1~ * m~1~ * m~2~ ]
