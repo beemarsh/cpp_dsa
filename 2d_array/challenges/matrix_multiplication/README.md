@@ -6,7 +6,7 @@ Given two 2-Dimensional arrays of sizes n~1~ * m~1~ and n~2~ * m~2~. Your task i
 
 **Example:**
 
-Let us consider the following two 2D array matrices a~1~ and a~2~ of size 3 * 4 and 4 * 3.
+Let us consider the following two 2D array matrices a~1~ and a~2~ of size 3 * 4 and 4 * 3
 
 **a~1~:**
 
