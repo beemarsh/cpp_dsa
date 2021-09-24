@@ -16,7 +16,7 @@ Let us consider the following two 2D array matrices a~1~ and a~2~ of size 3 * 4 
 |  **1** |  8 |  4 |  3 | 6 |
 |  **2** |  1 |  7 |  9 | 5 |
 
-**a~2~:**
+**a~2~:
 
 |    |  0 |  1 |  2 |
 |----|---:|---:|---:|
