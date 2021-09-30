@@ -1,3 +1,4 @@
+
 # Matrix Multiplication
 
 ## Problem
@@ -6,7 +7,7 @@ Given two 2-Dimensional arrays of sizes n~1~ * m~1~ and n~2~ * m~2~. Your task i
 
 **Example:**
 
-Let us consider the following two 2D array matrices a~1~ and a~2~ of size 3 * 4 and 4 * 3
+Let us consider the following two 2D array matrices a~1~ and a~2~ of size 3 * 4 and 4 * 3.
 
 **a~1~:**
 
@@ -33,6 +34,8 @@ Let us consider the following two 2D array matrices a~1~ and a~2~ of size 3 * 4 
 |  **1** |  69 |  90 |  111 |
 |  **2** |  112 |  134 |  156 |
 
+
+
 ## Constraints
 
 1 <= n~1~
@@ -40,7 +43,6 @@ Let us consider the following two 2D array matrices a~1~ and a~2~ of size 3 * 4 
 m~1~, n~2~ <= 1,000
 
 ## Input
-
 ```	
 3 4
 4 3
@@ -61,7 +63,7 @@ m~1~, n~2~ <= 1,000
 ```
 33 42 51
 69 90 111
-112 134
+112 134 156
 ```
 
 ## Solution
@@ -80,9 +82,8 @@ In summary, the code performs the following steps:
 4.  Multiply the two matrices and store the result in a new matrix
 5.  Print the new matrix
 	
-	
 	**Time Complexity** : O [ n~1~ * m~1~ * m~2~ ]
-	
+
 ## Code
 
 ```cpp
@@ -131,3 +132,4 @@ int main() {
     std::cout << std::endl;
   }
 }
+```
