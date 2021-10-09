@@ -9,3 +9,5 @@ Syntax:
 ```cpp
 int arr[rows][columns]`
 ```
+
+For example:
