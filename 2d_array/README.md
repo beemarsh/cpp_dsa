@@ -11,3 +11,10 @@ int arr[rows][columns]`
 ```
 
 For example:
+
+```cpp
+int arr[m][n];
+char arr[m][n];
+float arr[m][n];
+bool arr[m][n];
+```
