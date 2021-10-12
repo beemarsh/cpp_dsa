@@ -10,6 +10,10 @@ The following is a 3 * 4 matrix.
 |  **1** |  8 |  4 |  3 | 6 |
 |  **2** |  1 |  7 |  9 | 5 |
 
+The above matrix can be declared as:
+
+`int arr[3][4]`
+
 ## Declaration of 2D arrays
 2D Arrays are declared similar to 1D arrays but with an additional dimension.
 
