@@ -10,3 +10,5 @@ graph LR;
     D---E[E];
     E---F[F];
 ```
+
+## Declaration of Character arrays
