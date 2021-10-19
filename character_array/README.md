@@ -12,3 +12,5 @@ graph LR;
 ```
 
 ## Declaration of Character arrays
+
+Character Arrays are declared similar to integer arrays but with an additional 1 byte size.
