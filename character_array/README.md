@@ -16,3 +16,6 @@ graph LR;
 Character Arrays are declared similar to integer arrays but with an additional 1 byte size.
 
 Syntax: 
+```cpp
+char arr[N+1]`
+```
