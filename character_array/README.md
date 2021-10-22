@@ -19,3 +19,5 @@ Syntax:
 ```cpp
 char arr[N+1]`
 ```
+
+The additional 1 byte at the end of the array is to store a null byte `\0` that indicates end of the word.
