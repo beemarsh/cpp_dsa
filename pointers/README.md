@@ -11,3 +11,5 @@ For example:
 int a = 20;
 std::cout << &a;
 ```
+
+The above code outputs some address in hexadecimal.  `0x7ffefae2ef2c` 
