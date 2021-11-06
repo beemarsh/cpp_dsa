@@ -21,3 +21,5 @@ int a = 20;
 int *aptr = &a;
 std::cout << *aptr;
 ```
+
+The above code outputs value stored at `aptr` i.e.  `20`
