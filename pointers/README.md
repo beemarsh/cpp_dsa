@@ -23,3 +23,5 @@ std::cout << *aptr;
 ```
 
 The above code outputs value stored at `aptr` i.e.  `20`
+
+## Changing values using pointers
