@@ -27,3 +27,5 @@ The above code outputs value stored at `aptr` i.e.  `20`
 ## Changing values using pointers
 
 We can update the values in a variable by using pointers.
+
+Normally we change the value in a variable by declarling like this.
