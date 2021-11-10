@@ -29,3 +29,8 @@ The above code outputs value stored at `aptr` i.e.  `20`
 We can update the values in a variable by using pointers.
 
 Normally we change the value in a variable by declarling like this.
+
+```cpp
+int a=20;
+a=30;
+```
