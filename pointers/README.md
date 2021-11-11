@@ -34,3 +34,5 @@ Normally we change the value in a variable by declarling like this.
 int a=20;
 a=30;
 ```
+
+However, we can also update the value of a variable using pointers like this.
