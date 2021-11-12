@@ -36,3 +36,8 @@ a=30;
 ```
 
 However, we can also update the value of a variable using pointers like this.
+```cpp
+int a=20;
+int *aptr = &a;
+*aptr = 30;
+```
