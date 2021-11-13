@@ -41,3 +41,5 @@ int a=20;
 int *aptr = &a;
 *aptr = 30;
 ```
+
+## Pointer Arithmetic
