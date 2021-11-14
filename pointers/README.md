@@ -43,3 +43,4 @@ int *aptr = &a;
 ```
 
 ## Pointer Arithmetic
+We can perform basic operations (addition and subtraction) on a pointer.
