@@ -44,3 +44,5 @@ int *aptr = &a;
 
 ## Pointer Arithmetic
 We can perform basic operations (addition and subtraction) on a pointer.
+
+The diagram below represnts a block of memory. Each block represents a single byte of memory.
