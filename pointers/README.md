@@ -46,3 +46,14 @@ int *aptr = &a;
 We can perform basic operations (addition and subtraction) on a pointer.
 
 The diagram below represnts a block of memory. Each block represents a single byte of memory.
+```mermaid
+%%{init: {'theme': 'default'}}%%
+graph LR;
+    A[0] --- B[1]
+    B --- C[2]
+    C --- D[3]
+    D --- E[4]
+    E --- F[5]
+    F --- G[6]
+    G --- H[7]
+```
