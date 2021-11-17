@@ -57,3 +57,5 @@ graph LR;
     F --- G[6]
     G --- H[7]
 ```
+
+Let us say we store a integer in a variable.
