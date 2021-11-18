@@ -59,3 +59,7 @@ graph LR;
 ```
 
 Let us say we store a integer in a variable.
+
+```cpp
+int a = 20;
+```
