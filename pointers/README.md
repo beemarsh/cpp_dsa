@@ -63,3 +63,4 @@ Let us say we store a integer in a variable.
 ```cpp
 int a = 20;
 ```
+Integer occupies 4 bytes of memory. So the variable `a` occupies 4 bytes of memory.
