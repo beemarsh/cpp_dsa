@@ -64,3 +64,17 @@ Let us say we store a integer in a variable.
 int a = 20;
 ```
 Integer occupies 4 bytes of memory. So the variable `a` occupies 4 bytes of memory.
+
+```mermaid
+graph LR;
+    subgraph Integer Occupied Memory
+        A[0] --- B[1]
+        B --- C[2]
+        C --- D[3]
+    end
+    
+    D --- E[4]
+    E --- F[5]
+    F --- G[6]
+    G --- H[7]
+```
