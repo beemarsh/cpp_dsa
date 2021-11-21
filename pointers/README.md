@@ -78,3 +78,5 @@ graph LR;
     F --- G[6]
     G --- H[7]
 ```
+
+Let us make a pointer that points to the above memory address.
