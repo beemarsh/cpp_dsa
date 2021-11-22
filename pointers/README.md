@@ -80,3 +80,7 @@ graph LR;
 ```
 
 Let us make a pointer that points to the above memory address.
+
+```cpp
+int *aptr = &a;
+```
