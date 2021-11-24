@@ -86,3 +86,7 @@ int *aptr = &a;
 ```
 
 Now we perform addition on the pointer.
+
+```cpp
+aptr++;
+```
