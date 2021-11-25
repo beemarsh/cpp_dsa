@@ -90,3 +90,5 @@ Now we perform addition on the pointer.
 ```cpp
 aptr++;
 ```
+
+What happens is that the the pointer doesnt shift 1 byte but 4 bytes. The reason is that it leaves 4 bytes of memory for the integer data type and occupies the next 4 bytes of memory.
