@@ -92,3 +92,17 @@ aptr++;
 ```
 
 What happens is that the the pointer doesnt shift 1 byte but 4 bytes. The reason is that it leaves 4 bytes of memory for the integer data type and occupies the next 4 bytes of memory.
+
+```mermaid
+graph LR;
+A[0] --- B[1]
+B --- C[2]
+C --- D[3]
+D --- E[4]
+
+subgraph Integer Pointer Shifted by 4 bytes
+E --- F[5]
+F --- G[6]
+G --- H[7]
+end
+```
