@@ -106,3 +106,7 @@ F --- G[6]
 G --- H[7]
 end
 ```
+
+Similarly we can shift the pointer left and right by subtraction and addition respectively.
+
+**Note**: The data type declared for pointers should be the same as the data type of the value stored in the variable.
