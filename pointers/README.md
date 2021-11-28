@@ -110,3 +110,5 @@ end
 Similarly we can shift the pointer left and right by subtraction and addition respectively.
 
 **Note**: The data type declared for pointers should be the same as the data type of the value stored in the variable.
+
+## Pointers and Arrays
