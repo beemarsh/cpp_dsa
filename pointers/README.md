@@ -112,3 +112,5 @@ Similarly we can shift the pointer left and right by subtraction and addition re
 **Note**: The data type declared for pointers should be the same as the data type of the value stored in the variable.
 
 ## Pointers and Arrays
+
+Arrays work very much like pointers to their first elements, and, , an array access can always be implicitly converted to a pointer access of the appropriate type.
