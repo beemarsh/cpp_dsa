@@ -114,3 +114,5 @@ Similarly we can shift the pointer left and right by subtraction and addition re
 ## Pointers and Arrays
 
 Arrays work very much like pointers to their first elements, and, , an array access can always be implicitly converted to a pointer access of the appropriate type.
+
+For example:
