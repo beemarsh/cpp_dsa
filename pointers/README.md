@@ -124,3 +124,7 @@ std::cout << a ;
 The output of the above code would be `0x7ffe6dfdca20` because `a` points to the first element in the array.
 
 By using dereference operator, we can get the first element.
+
+```cpp
+std::cout << *a;
+```
