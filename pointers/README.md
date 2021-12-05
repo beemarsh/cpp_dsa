@@ -128,3 +128,4 @@ By using dereference operator, we can get the first element.
 ```cpp
 std::cout << *a;
 ```
+Output would be : `1`
