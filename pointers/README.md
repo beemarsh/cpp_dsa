@@ -129,3 +129,5 @@ By using dereference operator, we can get the first element.
 std::cout << *a;
 ```
 Output would be : `1`
+
+We can also access other elements in the array by the following method:
