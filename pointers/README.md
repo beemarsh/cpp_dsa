@@ -131,3 +131,8 @@ std::cout << *a;
 Output would be : `1`
 
 We can also access other elements in the array by the following method:
+
+```cpp
+std::cout << *(a + 1) << "\n";
+std::cout << *(a+2);
+```
