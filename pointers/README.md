@@ -136,3 +136,5 @@ We can also access other elements in the array by the following method:
 std::cout << *(a + 1) << "\n";
 std::cout << *(a+2);
 ```
+
+Output :
