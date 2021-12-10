@@ -143,3 +143,5 @@ Output :
 2
 3
 ```
+
+The following code represents different ways in which arrays and pointers can be used.
