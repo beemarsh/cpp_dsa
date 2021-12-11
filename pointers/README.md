@@ -145,3 +145,28 @@ Output :
 ```
 
 The following code represents different ways in which arrays and pointers can be used.
+
+```cpp
+	int a[5];
+    int *aptr = a;
+    
+    *aptr = 10;
+    
+    aptr++;
+    
+    *aptr = 20;
+    
+    aptr = &a[2];
+    
+    *aptr = 30;
+    
+    aptr = a + 3;
+    
+    *aptr = 40;
+    
+    *(a+4) = 50;
+    
+    for(int i=0;i<5;i++){
+        std::cout << a[i] << " ";
+    }
+```
