@@ -170,3 +170,5 @@ The following code represents different ways in which arrays and pointers can be
         std::cout << a[i] << " ";
     }
 ```
+
+The output would be:
