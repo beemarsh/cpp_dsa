@@ -172,3 +172,7 @@ The following code represents different ways in which arrays and pointers can be
 ```
 
 The output would be:
+
+```cpp
+10 20 30 40 50
+```
