@@ -176,3 +176,5 @@ The output would be:
 ```cpp
 10 20 30 40 50
 ```
+
+## Pointer to Pointer
