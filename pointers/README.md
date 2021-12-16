@@ -180,3 +180,5 @@ The output would be:
 ## Pointer to Pointer
 
 A pointer can point to a pointer which points to a value.
+
+For example:
