@@ -182,3 +182,13 @@ The output would be:
 A pointer can point to a pointer which points to a value.
 
 For example:
+
+```cpp
+int a= 20;
+int *aptr = &a;    
+int **aptp = &aptr;
+    
+std::cout << *aptp << "\n";
+    
+std::cout << **aptp;
+```
