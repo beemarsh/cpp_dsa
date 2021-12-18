@@ -192,3 +192,5 @@ std::cout << *aptp << "\n";
     
 std::cout << **aptp;
 ```
+
+Output::
