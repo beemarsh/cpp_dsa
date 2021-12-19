@@ -194,3 +194,8 @@ std::cout << **aptp;
 ```
 
 Output::
+
+```cpp
+0x7fffd969d7b4
+20
+```
