@@ -199,3 +199,5 @@ Output::
 0x7fffd969d7b4
 20
 ```
+
+## Pointers Usage
