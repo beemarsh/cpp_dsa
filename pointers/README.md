@@ -203,3 +203,5 @@ Output::
 ## Pointers Usage
 
 We can access the value directly and modify it using pointers from any place.
+
+For example:
