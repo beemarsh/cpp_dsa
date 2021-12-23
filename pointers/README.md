@@ -205,3 +205,23 @@ Output::
 We can access the value directly and modify it using pointers from any place.
 
 For example:
+
+```cpp
+#include <iostream>
+
+int increment(int a){
+    a++;
+    return a;
+}
+
+int main() {
+    // Write C++ code here
+    int a = 20;
+    
+    increment(a);
+    
+    std::cout << a;
+    
+    return 0;
+}
+```
