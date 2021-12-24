@@ -225,3 +225,5 @@ int main() {
     return 0;
 }
 ```
+
+In the above code, the value of a remains the same and doesn't change.
