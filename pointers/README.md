@@ -227,3 +227,5 @@ int main() {
 ```
 
 In the above code, the value of a remains the same and doesn't change.
+
+But if we pass the pointer and change the value, the value changes globally.
