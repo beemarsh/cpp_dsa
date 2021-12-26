@@ -229,3 +229,22 @@ int main() {
 In the above code, the value of a remains the same and doesn't change.
 
 But if we pass the pointer and change the value, the value changes globally.
+
+```cpp
+#include <iostream>
+
+int increment(int *aptr){
+    *aptr = *aptr + 1;
+}
+
+int main() {
+    // Write C++ code here
+    int a = 20;
+    
+    increment(&a);
+    
+    std::cout << a;
+    
+    return 0;
+}
+```
