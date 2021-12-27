@@ -248,3 +248,5 @@ int main() {
     return 0;
 }
 ```
+
+[For more information](https://www.cpp.edu/~elab/ECE114/Pointers%20in%20C++.html#:~:text=As%20just%20seen%2C%20a%20variable,variable%20they%20point%20to%20directly.)
