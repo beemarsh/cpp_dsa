@@ -1,3 +1,4 @@
+
 # Pointers
 
 Pointers are variables that store the memory address of other variables
@@ -17,6 +18,7 @@ The above code outputs some address in hexadecimal.  `0x7ffefae2ef2c`
 **Dereference Operator** $(*)$ :  An interesting property of pointers is that they can be used to access the variable they point to directly. This is done by preceding the pointer name with the dereference operator (*).
 
 For example:
+```cpp
 int a = 20;
 int *aptr = &a;
 std::cout << *aptr;
@@ -29,13 +31,13 @@ The above code outputs value stored at `aptr` i.e.  `20`
 We can update the values in a variable by using pointers.
 
 Normally we change the value in a variable by declarling like this.
-
 ```cpp
 int a=20;
 a=30;
 ```
 
 However, we can also update the value of a variable using pointers like this.
+
 ```cpp
 int a=20;
 int *aptr = &a;
@@ -43,9 +45,11 @@ int *aptr = &a;
 ```
 
 ## Pointer Arithmetic
+
 We can perform basic operations (addition and subtraction) on a pointer.
 
 The diagram below represnts a block of memory. Each block represents a single byte of memory.
+
 ```mermaid
 %%{init: {'theme': 'default'}}%%
 graph LR;
@@ -63,6 +67,7 @@ Let us say we store a integer in a variable.
 ```cpp
 int a = 20;
 ```
+
 Integer occupies 4 bytes of memory. So the variable `a` occupies 4 bytes of memory.
 
 ```mermaid
@@ -116,7 +121,6 @@ Similarly we can shift the pointer left and right by subtraction and addition re
 Arrays work very much like pointers to their first elements, and, , an array access can always be implicitly converted to a pointer access of the appropriate type.
 
 For example:
-
 ```cpp
 int a[] = {1,2,3};
 std::cout << a ;
@@ -124,21 +128,17 @@ std::cout << a ;
 The output of the above code would be `0x7ffe6dfdca20` because `a` points to the first element in the array.
 
 By using dereference operator, we can get the first element.
-
 ```cpp
 std::cout << *a;
 ```
 Output would be : `1`
 
 We can also access other elements in the array by the following method:
-
 ```cpp
 std::cout << *(a + 1) << "\n";
 std::cout << *(a+2);
 ```
-
 Output :
-
 ```cpp
 2
 3
@@ -172,7 +172,6 @@ The following code represents different ways in which arrays and pointers can be
 ```
 
 The output would be:
-
 ```cpp
 10 20 30 40 50
 ```
@@ -225,11 +224,9 @@ int main() {
     return 0;
 }
 ```
-
 In the above code, the value of a remains the same and doesn't change.
 
 But if we pass the pointer and change the value, the value changes globally.
-
 ```cpp
 #include <iostream>
 
@@ -248,5 +245,6 @@ int main() {
     return 0;
 }
 ```
+
 
 [For more information](https://www.cpp.edu/~elab/ECE114/Pointers%20in%20C++.html#:~:text=As%20just%20seen%2C%20a%20variable,variable%20they%20point%20to%20directly.)
