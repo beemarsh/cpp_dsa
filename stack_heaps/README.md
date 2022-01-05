@@ -17,3 +17,5 @@ int main(){
 	return 0;
 }
 ```
+
+First, the `main` function is called. So it gets added to the function call stack. All the local variables are stored in this stack.
