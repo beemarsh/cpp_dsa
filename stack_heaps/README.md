@@ -19,3 +19,9 @@ int main(){
 ```
 
 First, the `main` function is called. So it gets added to the function call stack. All the local variables are stored in this stack.
+
+```mermaid
+graph TD;
+    empty2["............"] --- empty1["............"]
+	empty1 --- main["main() ; varA, varB"]
+```
