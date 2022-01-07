@@ -25,3 +25,5 @@ graph TD;
     empty2["............"] --- empty1["............"]
 	empty1 --- main["main() ; varA, varB"]
 ```
+
+Now, the `add` function is called. So it gets added to the stack.
