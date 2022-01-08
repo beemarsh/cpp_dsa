@@ -27,3 +27,9 @@ graph TD;
 ```
 
 Now, the `add` function is called. So it gets added to the stack.
+
+```mermaid
+graph TD;
+    empty2["............"] --- add["add(); a,b"]
+	add --- main["main() ; varA, varB"]
+```
