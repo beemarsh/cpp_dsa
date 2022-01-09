@@ -33,3 +33,5 @@ graph TD;
     empty2["............"] --- add["add(); a,b"]
 	add --- main["main() ; varA, varB"]
 ```
+
+The functions in the stack get removed in the opposite order in which they were added.
