@@ -35,3 +35,5 @@ graph TD;
 ```
 
 The functions in the stack get removed in the opposite order in which they were added.
+
+So when `add` function returns, `add` gets removed from the stack.
