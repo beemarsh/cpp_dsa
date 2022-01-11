@@ -37,3 +37,9 @@ graph TD;
 The functions in the stack get removed in the opposite order in which they were added.
 
 So when `add` function returns, `add` gets removed from the stack.
+
+```mermaid
+graph TD;
+    empty2["............"] --- empty1["............"]
+	empty1 --- main["main() ; varA, varB"]
+```
