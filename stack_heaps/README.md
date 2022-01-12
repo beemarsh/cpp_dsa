@@ -43,3 +43,5 @@ graph TD;
     empty2["............"] --- empty1["............"]
 	empty1 --- main["main() ; varA, varB"]
 ```
+
+Now, `main` function returns 0. So it also gets removed from the stack.
