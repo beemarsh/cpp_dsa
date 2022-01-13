@@ -45,3 +45,9 @@ graph TD;
 ```
 
 Now, `main` function returns 0. So it also gets removed from the stack.
+
+```mermaid
+graph TD;
+    empty2["............"] --- empty1["............"]
+	empty1 --- empty3["............"]
+```
