@@ -51,3 +51,5 @@ graph TD;
     empty2["............"] --- empty1["............"]
 	empty1 --- empty3["............"]
 ```
+
+**Note :** The size of a memory stack is fixed. It cannot be changed during run-time. When a lot of functions are called, the functions get added to the memory stack. At a certain point, due to extreme recursions or some other reason, the stack may get filled up resulting to **Stack Overflow**
