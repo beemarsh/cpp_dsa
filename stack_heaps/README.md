@@ -55,3 +55,5 @@ graph TD;
 **Note :** The size of a memory stack is fixed. It cannot be changed during run-time. When a lot of functions are called, the functions get added to the memory stack. At a certain point, due to extreme recursions or some other reason, the stack may get filled up resulting to **Stack Overflow**
 
 ## Heap Memory Allocation
+
+The size of a heap is not fixed. A programmer can assign the size of the heap as big as the virtual memory of the device.
