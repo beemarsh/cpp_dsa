@@ -59,3 +59,7 @@ graph TD;
 The size of a heap is not fixed. A programmer can assign the size of the heap as big as the virtual memory of the device.
 
 In the following code, the variable `a` gets stored in the memory stack. 
+
+```cpp
+int a=10;
+```
