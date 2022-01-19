@@ -63,3 +63,5 @@ In the following code, the variable `a` gets stored in the memory stack.
 ```cpp
 int a=10;
 ```
+
+However, to store the variable in a heap, we have to use the `new` operator.
