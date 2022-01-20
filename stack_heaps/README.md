@@ -65,3 +65,8 @@ int a=10;
 ```
 
 However, to store the variable in a heap, we have to use the `new` operator.
+
+```cpp
+int *a = new int();
+*a = 10;
+```
