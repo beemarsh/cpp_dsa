@@ -70,3 +70,5 @@ However, to store the variable in a heap, we have to use the `new` operator.
 int *a = new int();
 *a = 10;
 ```
+
+In the above code, the value of `a` i.e is stored in heap. However, `a` itself which stores the memory location is stored in stack memory.
