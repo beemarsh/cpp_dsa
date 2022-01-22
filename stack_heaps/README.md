@@ -72,3 +72,5 @@ int *a = new int();
 ```
 
 In the above code, the value of `a` i.e is stored in heap. However, `a` itself which stores the memory location is stored in stack memory.
+
+In stack memory, allocation and deallocation is managed by the system. However, in heap we have to manually deallocate the memory. 
