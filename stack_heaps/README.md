@@ -76,3 +76,5 @@ In the above code, the value of `a` i.e is stored in heap. However, `a` itself w
 In stack memory, allocation and deallocation is managed by the system. However, in heap we have to manually deallocate the memory. 
 
 For that, we have `delete` operator.
+
+We provide the memory location of the heap to the `delete` operator.
