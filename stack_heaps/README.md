@@ -78,3 +78,7 @@ In stack memory, allocation and deallocation is managed by the system. However, 
 For that, we have `delete` operator.
 
 We provide the memory location of the heap to the `delete` operator.
+
+```cpp
+delete(a);
+```
