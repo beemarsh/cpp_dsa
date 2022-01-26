@@ -82,3 +82,5 @@ We provide the memory location of the heap to the `delete` operator.
 ```cpp
 delete(a);
 ```
+
+Now, that the value in the heap memory is deallocated, `a` still points to that location in the heap memory which is empty. This is called a **dangling pointer**.
