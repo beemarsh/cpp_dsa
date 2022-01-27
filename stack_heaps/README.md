@@ -84,3 +84,5 @@ delete(a);
 ```
 
 Now, that the value in the heap memory is deallocated, `a` still points to that location in the heap memory which is empty. This is called a **dangling pointer**.
+
+There are two ways to remove dangling pointer.
