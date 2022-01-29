@@ -89,3 +89,7 @@ There are two ways to remove dangling pointer.
 
 - Reusing to store other variables
 - Assigning `null` value to the pointer.
+
+```cpp
+a = NULL;
+```
