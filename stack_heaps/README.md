@@ -93,3 +93,5 @@ There are two ways to remove dangling pointer.
 ```cpp
 a = NULL;
 ```
+
+### Storing arrays in Heap
