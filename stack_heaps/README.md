@@ -95,3 +95,9 @@ a = NULL;
 ```
 
 ### Storing arrays in Heap
+
+```cpp
+int *a = new int[3];
+delete[]a;
+a = NULL;
+```
