@@ -101,3 +101,5 @@ int *a = new int[3];
 delete[]a;
 a = NULL;
 ```
+
+**Note:** We should always deallocate memory in heap. In real time servers that never turn off, deallocating memory is extremely essential or it might lead to memory leak.
