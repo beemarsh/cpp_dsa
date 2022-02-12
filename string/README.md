@@ -13,3 +13,7 @@ string str(10);
 ```
 
 We can also fill the string with certain characters.
+
+```cpp
+string str(5,"N");
+```
