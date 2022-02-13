@@ -17,3 +17,5 @@ We can also fill the string with certain characters.
 ```cpp
 string str(5,"N");
 ```
+
+We can also make copy of the string.
