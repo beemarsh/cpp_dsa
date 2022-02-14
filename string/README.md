@@ -19,3 +19,8 @@ string str(5,"N");
 ```
 
 We can also make copy of the string.
+
+```cpp
+string string_1 = "something";
+string string_2(string_1);
+```
