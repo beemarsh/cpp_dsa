@@ -24,3 +24,5 @@ We can also make copy of the string.
 string string_1 = "something";
 string string_2(string_1);
 ```
+
+## Taking Input
