@@ -26,3 +26,8 @@ string string_2(string_1);
 ```
 
 ## Taking Input
+
+```cpp
+std::string str;
+std::cin >> str;
+```
