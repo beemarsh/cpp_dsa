@@ -31,3 +31,5 @@ string string_2(string_1);
 std::string str;
 std::cin >> str;
 ```
+
+To input an entire line, we can use `getline` function.
