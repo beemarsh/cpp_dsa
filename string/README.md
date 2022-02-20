@@ -40,3 +40,5 @@ std::getline(cin,str);
 ```
 
 ## String Functions
+
+- ### append(): 
