@@ -42,3 +42,4 @@ std::getline(cin,str);
 ## String Functions
 
 - ### append(): 
+	Inserts additional characters at the end of the string (can also be done using ‘+’ or ‘+=’ operator).
