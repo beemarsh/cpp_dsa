@@ -43,3 +43,11 @@ std::getline(cin,str);
 
 - ### append(): 
 	Inserts additional characters at the end of the string (can also be done using ‘+’ or ‘+=’ operator).
+	
+```cpp
+std::string str = "cod";
+str.append("ing");
+/*Or, 
+str+="ing"
+*/
+```
