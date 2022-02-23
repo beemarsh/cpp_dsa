@@ -51,3 +51,5 @@ str.append("ing");
 str+="ing"
 */
 ```
+
+- ### assign(): 
