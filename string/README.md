@@ -53,3 +53,5 @@ str+="ing"
 ```
 
 - ### assign(): 
+
+	Assigns new string by replacing the previous value (can also be done using ‘=’ operator).
