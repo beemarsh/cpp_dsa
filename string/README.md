@@ -55,3 +55,11 @@ str+="ing"
 - ### assign(): 
 
 	Assigns new string by replacing the previous value (can also be done using ‘=’ operator).
+	
+```cpp
+std::string str = "coding";
+str.assign("writing");
+/*Or
+str = "writing"
+*/
+```
