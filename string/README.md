@@ -63,3 +63,5 @@ str.assign("writing");
 str = "writing"
 */
 ```
+
+- ### at():
