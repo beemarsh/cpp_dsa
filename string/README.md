@@ -65,3 +65,5 @@ str = "writing"
 ```
 
 - ### at():
+
+	Returns the character at a particular position (can also be done using ‘[]’ operator).
