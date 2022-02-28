@@ -67,3 +67,11 @@ str = "writing"
 - ### at():
 
 	Returns the character at a particular position (can also be done using ‘[]’ operator).
+	
+```cpp
+std::string str = "coding";
+std::cout << str.at(3)
+/* Or
+std::cout << str[3];
+*/
+```
