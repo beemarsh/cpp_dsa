@@ -75,3 +75,5 @@ std::cout << str.at(3)
 std::cout << str[3];
 */
 ```
+
+- ### clear(): 
