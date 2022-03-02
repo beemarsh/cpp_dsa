@@ -77,3 +77,5 @@ std::cout << str[3];
 ```
 
 - ### clear(): 
+
+	Erases all the contents of the string and assign an empty string (“”) of length zero.
