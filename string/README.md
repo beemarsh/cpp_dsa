@@ -84,3 +84,5 @@ std::cout << str[3];
 std::string str = "coding";
 str.clear();
 ```
+
+- ### compare(): 
