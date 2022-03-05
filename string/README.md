@@ -86,3 +86,5 @@ str.clear();
 ```
 
 - ### compare(): 
+
+Compares the value of the string with the string passed in the parameter and returns an integer accordingly.
