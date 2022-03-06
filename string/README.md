@@ -88,3 +88,17 @@ str.clear();
 - ### compare(): 
 
 Compares the value of the string with the string passed in the parameter and returns an integer accordingly.
+
+```cpp
+std::string str1 = "a";
+std::string str2 = "b";
+
+str1.compare(str2);
+//Output : -1
+
+str2.compare(str1);
+//Output : 1
+
+str2.compare(str2);
+//Output : 0
+```
