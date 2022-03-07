@@ -102,3 +102,5 @@ str2.compare(str1);
 str2.compare(str2);
 //Output : 0
 ```
+
+- ### empty():
