@@ -104,3 +104,5 @@ str2.compare(str2);
 ```
 
 - ### empty():
+
+	Returns a boolean value, `true` if the string is empty and `false` if the string is not empty.
