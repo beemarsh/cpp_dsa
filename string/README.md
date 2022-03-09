@@ -106,3 +106,14 @@ str2.compare(str2);
 - ### empty():
 
 	Returns a boolean value, `true` if the string is empty and `false` if the string is not empty.
+	
+```cpp
+std::string str1 = "abc";
+std::string str2;
+
+std::cout << str1.empty();
+//Output : 0
+
+std::cout << str2.empty();
+//Output : 1
+```
