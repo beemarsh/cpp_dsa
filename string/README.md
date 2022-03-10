@@ -117,3 +117,4 @@ std::cout << str1.empty();
 std::cout << str2.empty();
 //Output : 1
 ```
+- ### erase():
