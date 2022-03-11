@@ -118,3 +118,4 @@ std::cout << str2.empty();
 //Output : 1
 ```
 - ### erase():
+	Deletes a substring of the string.
