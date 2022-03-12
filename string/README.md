@@ -119,3 +119,11 @@ std::cout << str2.empty();
 ```
 - ### erase():
 	Deletes a substring of the string.
+
+```cpp
+std::string str = "coding";
+str.erase(1,3);
+std::cout << str;
+
+//Output : cng
+```
