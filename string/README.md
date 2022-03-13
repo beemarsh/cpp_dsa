@@ -127,3 +127,5 @@ std::cout << str;
 
 //Output : cng
 ```
+
+- ### find():
