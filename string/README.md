@@ -129,3 +129,4 @@ std::cout << str;
 ```
 
 - ### find():
+	Searches the string and returns the first occurrence of the parameter in the string.
