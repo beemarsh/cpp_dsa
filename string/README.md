@@ -130,3 +130,10 @@ std::cout << str;
 
 - ### find():
 	Searches the string and returns the first occurrence of the parameter in the string.
+	
+```cpp
+std::string str = "coding";
+std::cout << str.find("in");
+
+//Output : 3
+```
