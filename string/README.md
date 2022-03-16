@@ -137,3 +137,5 @@ std::cout << str.find("in");
 
 //Output : 3
 ```
+
+- ### insert():
