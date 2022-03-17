@@ -139,3 +139,5 @@ std::cout << str.find("in");
 ```
 
 - ### insert():
+
+	Inserts additional characters into the string at a particular position.
