@@ -141,3 +141,11 @@ std::cout << str.find("in");
 - ### insert():
 
 	Inserts additional characters into the string at a particular position.
+	
+```cpp
+std::string str = "coding";
+str.insert(2,"LOL");
+std::cout << str;
+
+//Output: coLOLding
+```
