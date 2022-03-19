@@ -149,3 +149,5 @@ std::cout << str;
 
 //Output: coLOLding
 ```
+
+- ### length():
