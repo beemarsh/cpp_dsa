@@ -151,3 +151,5 @@ std::cout << str;
 ```
 
 - ### length():
+
+	Returns the length of the string.
