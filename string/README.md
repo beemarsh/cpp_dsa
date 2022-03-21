@@ -153,3 +153,10 @@ std::cout << str;
 - ### length():
 
 	Returns the length of the string.
+	
+```cpp
+std::string str = "coding";
+std::cout << str.length();
+
+//Output : 6
+```
