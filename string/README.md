@@ -160,3 +160,5 @@ std::cout << str.length();
 
 //Output : 6
 ```
+
+- ### resize():
