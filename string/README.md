@@ -162,3 +162,5 @@ std::cout << str.length();
 ```
 
 - ### resize():
+
+	Resize the string to the new length which can be less than or greater than the current length.
