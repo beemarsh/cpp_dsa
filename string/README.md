@@ -164,3 +164,11 @@ std::cout << str.length();
 - ### resize():
 
 	Resize the string to the new length which can be less than or greater than the current length.
+	
+```cpp
+std::string str = "coding";
+str.resize(3);
+std::cout << str;
+
+//Output : cod
+```
