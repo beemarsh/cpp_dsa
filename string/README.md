@@ -172,3 +172,5 @@ std::cout << str;
 
 //Output : cod
 ```
+
+- ### size():
