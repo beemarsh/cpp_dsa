@@ -183,3 +183,5 @@ std::cout << str.size();
 
 //Output : 6
 ```
+
+- ### substr():
