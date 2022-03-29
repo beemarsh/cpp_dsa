@@ -185,3 +185,4 @@ std::cout << str.size();
 ```
 
 - ### substr():
+	Returns a string which is the copy of the substring.
