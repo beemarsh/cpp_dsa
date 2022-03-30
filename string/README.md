@@ -186,3 +186,10 @@ std::cout << str.size();
 
 - ### substr():
 	Returns a string which is the copy of the substring.
+	
+```cpp
+std::string str = "coding";
+std::cout << str.substr(1,3);
+
+//Output : odi
+```
