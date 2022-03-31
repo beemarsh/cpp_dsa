@@ -193,3 +193,5 @@ std::cout << str.substr(1,3);
 
 //Output : odi
 ```
+
+- ### stoi():
