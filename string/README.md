@@ -195,3 +195,5 @@ std::cout << str.substr(1,3);
 ```
 
 - ### stoi():
+
+	Returns the strings converted to int datatype.
