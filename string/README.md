@@ -197,3 +197,11 @@ std::cout << str.substr(1,3);
 - ### stoi():
 
 	Returns the strings converted to int datatype.
+	
+```cpp
+std::string str = "123";
+int i = stoi(str);
+std::cout << i + 2;
+
+//Output : 125
+```
