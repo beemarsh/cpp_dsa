@@ -205,3 +205,5 @@ std::cout << i + 2;
 
 //Output : 125
 ```
+
+**Note:**  To convert an integer to a string, we use `to_string()` function. 
