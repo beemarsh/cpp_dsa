@@ -207,3 +207,6 @@ std::cout << i + 2;
 ```
 
 **Note:**  To convert an integer to a string, we use `to_string()` function. 
+
+
+## Sorting a string: 
