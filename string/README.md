@@ -210,3 +210,5 @@ std::cout << i + 2;
 
 
 ## Sorting a string: 
+
+To sort a string, we need to include a header file `algorithm` in our code.
