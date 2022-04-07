@@ -214,3 +214,14 @@ std::cout << i + 2;
 To sort a string, we need to include a header file `algorithm` in our code.
 
 `Sort()` function takes 2 arguments viz. iterator to start of the string and iterator to end of the string.
+
+```cpp
+#include <algorithm>
+#include <iostream>
+
+int main(){
+	std::string str = "cba";
+	std::sort(str.begin(),str.end());
+	std::cout << str;
+}
+```
