@@ -1,6 +1,8 @@
+
 # Strings
 
 To use strings in a program, you need to include a header called string.
+
 ## Declaring a string
 ```cpp
 string str = "word";
@@ -43,7 +45,7 @@ std::getline(cin,str);
 
 - ### append(): 
 	Inserts additional characters at the end of the string (can also be done using ‘+’ or ‘+=’ operator).
-	
+
 ```cpp
 std::string str = "cod";
 str.append("ing");
@@ -53,9 +55,7 @@ str+="ing"
 ```
 
 - ### assign(): 
-
 	Assigns new string by replacing the previous value (can also be done using ‘=’ operator).
-	
 ```cpp
 std::string str = "coding";
 str.assign("writing");
@@ -65,9 +65,7 @@ str = "writing"
 ```
 
 - ### at():
-
 	Returns the character at a particular position (can also be done using ‘[]’ operator).
-	
 ```cpp
 std::string str = "coding";
 std::cout << str.at(3)
@@ -77,18 +75,14 @@ std::cout << str[3];
 ```
 
 - ### clear(): 
-
 	Erases all the contents of the string and assign an empty string (“”) of length zero.
-	
 ```cpp
 std::string str = "coding";
 str.clear();
 ```
 
 - ### compare(): 
-
-Compares the value of the string with the string passed in the parameter and returns an integer accordingly.
-
+	Compares the value of the string with the string passed in the parameter and returns an integer accordingly.
 ```cpp
 std::string str1 = "a";
 std::string str2 = "b";
@@ -104,9 +98,8 @@ str2.compare(str2);
 ```
 
 - ### empty():
-
 	Returns a boolean value, `true` if the string is empty and `false` if the string is not empty.
-	
+
 ```cpp
 std::string str1 = "abc";
 std::string str2;
@@ -117,9 +110,9 @@ std::cout << str1.empty();
 std::cout << str2.empty();
 //Output : 1
 ```
+
 - ### erase():
 	Deletes a substring of the string.
-
 ```cpp
 std::string str = "coding";
 str.erase(1,3);
@@ -130,7 +123,6 @@ std::cout << str;
 
 - ### find():
 	Searches the string and returns the first occurrence of the parameter in the string.
-	
 ```cpp
 std::string str = "coding";
 std::cout << str.find("in");
@@ -139,9 +131,7 @@ std::cout << str.find("in");
 ```
 
 - ### insert():
-
 	Inserts additional characters into the string at a particular position.
-	
 ```cpp
 std::string str = "coding";
 str.insert(2,"LOL");
@@ -151,9 +141,7 @@ std::cout << str;
 ```
 
 - ### length():
-
 	Returns the length of the string.
-	
 ```cpp
 std::string str = "coding";
 std::cout << str.length();
@@ -162,9 +150,7 @@ std::cout << str.length();
 ```
 
 - ### resize():
-
 	Resize the string to the new length which can be less than or greater than the current length.
-	
 ```cpp
 std::string str = "coding";
 str.resize(3);
@@ -174,9 +160,7 @@ std::cout << str;
 ```
 
 - ### size():
-
 	Returns the length of the string.
-	
 ```cpp
 std::string str = "coding";
 std::cout << str.size();
@@ -186,7 +170,6 @@ std::cout << str.size();
 
 - ### substr():
 	Returns a string which is the copy of the substring.
-	
 ```cpp
 std::string str = "coding";
 std::cout << str.substr(1,3);
@@ -195,9 +178,7 @@ std::cout << str.substr(1,3);
 ```
 
 - ### stoi():
-
 	Returns the strings converted to int datatype.
-	
 ```cpp
 std::string str = "123";
 int i = stoi(str);
@@ -207,7 +188,6 @@ std::cout << i + 2;
 ```
 
 **Note:**  To convert an integer to a string, we use `to_string()` function. 
-
 
 ## Sorting a string: 
 
