@@ -5,3 +5,5 @@ An algorithmic operation known as **bit manipulation** involves the manipulation
 ## Basic Understanding of how C++ compilers assign bits to memory
 
 There are different data types that occupy different size of memory.
+
+The following diagram shows 8 bits (1 byte) memory.
