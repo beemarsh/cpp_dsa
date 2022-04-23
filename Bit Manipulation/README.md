@@ -7,3 +7,14 @@ An algorithmic operation known as **bit manipulation** involves the manipulation
 There are different data types that occupy different size of memory.
 
 The following diagram shows 8 bits (1 byte) memory.
+
+```mermaid
+graph LR
+    A[Bit 7 ] --- B[Bit 6]
+    B --- C[Bit 5]
+    C --- D[Bit 4]
+    D --- E[Bit 3]
+    E --- F[Bit 2]
+    F --- G[Bit 1]
+    G --- H[Bit 0]
+```
