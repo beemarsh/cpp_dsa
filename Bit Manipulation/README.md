@@ -18,3 +18,5 @@ graph LR
     F --- G[Bit 1]
     G --- H[Bit 0]
 ```
+
+The left most bit is the Most Significant Bit (MSB) and the right most bit is the Least Significant Bit (LSB).
