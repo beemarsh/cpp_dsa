@@ -20,3 +20,5 @@ graph LR
 ```
 
 The left most bit is the Most Significant Bit (MSB) and the right most bit is the Least Significant Bit (LSB).
+
+The MSB is also a sign bit in signed data type.
