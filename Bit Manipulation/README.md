@@ -24,3 +24,5 @@ The left most bit is the Most Significant Bit (MSB) and the right most bit is th
 The MSB is also a sign bit in signed data type.
 
 ## Endianness
+
+**Endianness** is the order or sequence of bytes of a word of digital data in memory.
