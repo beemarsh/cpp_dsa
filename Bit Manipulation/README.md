@@ -26,3 +26,5 @@ The MSB is also a sign bit in signed data type.
 ## Endianness
 
 **Endianness** is the order or sequence of bytes of a word of digital data in memory.
+
+Endianness is primarily expressed as big-endian (BE) or little-endian (LE). 
