@@ -33,3 +33,5 @@ Endianness is primarily expressed as big-endian (BE) or little-endian (LE).
 - A little-endian system, in contrast, stores the least-significant byte at the smallest address.
 
 Bi-endianness is a feature supported by numerous computer architectures that feature switchable endianness in data fetches and stores or for instruction fetches. 
+
+Other orderings are generically called middle-endian or mixed-endian.
