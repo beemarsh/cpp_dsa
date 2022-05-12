@@ -37,3 +37,24 @@ Bi-endianness is a feature supported by numerous computer architectures that fea
 Other orderings are generically called middle-endian or mixed-endian.
 
 These two diagrams show how two computers using different endianness store a 32-bit (four byte) integer with the value of 0x0A0B0C0D. 
+
+```mermaid
+graph TD
+	subgraph BIGENDIAN
+    A[0A] --- B[0B]
+    B --- C[0C]
+    C --- D[0D]
+    end
+    
+	subgraph LITTLE ENDIAN
+    A1[0D] --- B1[0C]
+    B1 --- C1[0B]
+    C1 --- D1[0A]
+    end
+    
+subgraph MEMORY ADDRESS
+    A2[a] --- B2[a+1]
+    B2 --- C2[a+2]
+    C2 --- D2[a+3]
+    end
+```
