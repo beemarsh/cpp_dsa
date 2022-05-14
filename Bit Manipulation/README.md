@@ -58,3 +58,5 @@ subgraph MEMORY ADDRESS
     C2 --- D2[a+3]
     end
 ```
+
+In both cases, the integer is broken into four bytes, 0x0A, 0x0B, 0x0C, and 0x0D, and the bytes are stored in four sequential byte locations in memory, starting with the memory location with address a, then a + 1, a + 2, and a + 3. 
