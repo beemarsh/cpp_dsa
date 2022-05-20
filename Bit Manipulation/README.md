@@ -62,3 +62,5 @@ subgraph MEMORY ADDRESS
 In both cases, the integer is broken into four bytes, 0x0A, 0x0B, 0x0C, and 0x0D, and the bytes are stored in four sequential byte locations in memory, starting with the memory location with address a, then a + 1, a + 2, and a + 3. 
 
 The difference between big- and little-endian is the order of the four bytes of the integer being stored.
+
+The right-side diagram shows a computer using big-endian. This starts the storing of the integer with the most-significant byte, 0x0A, at address a, and ends with the least-significant byte, 0x0D, at address a + 3.
