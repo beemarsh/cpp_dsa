@@ -64,3 +64,5 @@ In both cases, the integer is broken into four bytes, 0x0A, 0x0B, 0x0C, and 0x0D
 The difference between big- and little-endian is the order of the four bytes of the integer being stored.
 
 The right-side diagram shows a computer using big-endian. This starts the storing of the integer with the most-significant byte, 0x0A, at address a, and ends with the least-significant byte, 0x0D, at address a + 3.
+
+The left-side diagram shows a computer using little-endian. This starts the storing of the integer with the least-significant byte, 0x0D, at address a, and ends with the most-significant byte, 0x0A, at address a + 3.
