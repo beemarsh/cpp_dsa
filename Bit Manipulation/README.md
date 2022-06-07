@@ -76,3 +76,8 @@ Big-endianness is the dominant ordering in networking protocols, such as in the 
 In the 1726 novel Gulliver's Travels, he portrays the conflict between sects of Lilliputians divided into those breaking the shell of a boiled egg from the big end or from the little end. Because the emperor's son had cut his finger while opening an egg from the big end, doing so was prohibited by an imperial edict; those who rebelled and did so were called "Big-Endians" (Swift did not use the term Little-Endians in the work).
 
 ## Signed 8-Bit Integers
+
+```cpp
+int8_t a = 97;
+//Same as char a = 97; or signed char a = 97
+```
