@@ -81,3 +81,5 @@ In the 1726 novel Gulliver's Travels, he portrays the conflict between sects of 
 int8_t a = 97;
 //Same as char a = 97; or signed char a = 97
 ```
+
+The binary equivalent of `97` is : `01100001`
