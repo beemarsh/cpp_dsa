@@ -83,3 +83,5 @@ int8_t a = 97;
 ```
 
 The binary equivalent of `97` is : `01100001`
+
+So variable `a` is stored in memory like this.
