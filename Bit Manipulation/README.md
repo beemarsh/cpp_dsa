@@ -85,3 +85,14 @@ int8_t a = 97;
 The binary equivalent of `97` is : `01100001`
 
 So variable `a` is stored in memory like this.
+
+```mermaid
+graph LR
+    A[0] --- B[1]
+    B --- C[1]
+    C --- D[0]
+    D --- E[0]
+    E --- F[0]
+    F --- G[0]
+    G --- H[1]
+```
