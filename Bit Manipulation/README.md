@@ -96,3 +96,5 @@ graph LR
     F --- G[0]
     G --- H[1]
 ```
+
+And when we retrieve the value from the memory it gets converted to its desired value.
