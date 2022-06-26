@@ -102,3 +102,5 @@ And when we retrieve the value from the memory it gets converted to its desired 
  $0^{7}$ +  $2^{6}$ +  $2^{5}$ +  $0^{4}$ +  $0^{3}$ +  $0^{2}$ +  $0^{1}$ +  $2^{0}$  = 97
  
  It is a signed bit, so the left most bit is the sign bit. It is 0 which means positive.
+ 
+ Lets say if the left most bit was `1` like below.
