@@ -104,3 +104,14 @@ And when we retrieve the value from the memory it gets converted to its desired 
  It is a signed bit, so the left most bit is the sign bit. It is 0 which means positive.
  
  Lets say if the left most bit was `1` like below.
+ 
+ ```mermaid
+graph LR
+    A[1] --- B[1]
+    B --- C[1]
+    C --- D[0]
+    D --- E[0]
+    E --- F[0]
+    F --- G[0]
+    G --- H[1]
+```
