@@ -115,3 +115,5 @@ graph LR
     F --- G[0]
     G --- H[1]
 ```
+
+Then the sign is negative like this.
