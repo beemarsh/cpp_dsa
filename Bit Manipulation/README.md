@@ -119,3 +119,5 @@ graph LR
 Then the sign is negative like this.
 
  -$2^{7}$ +  $2^{6}$ +  $2^{5}$ +  $0^{4}$ +  $0^{3}$ +  $0^{2}$ +  $0^{1}$ +  $2^{0}$  = -31
+ 
+ ### 8-bit Integer implicit type conversion
