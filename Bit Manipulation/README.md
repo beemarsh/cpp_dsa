@@ -126,3 +126,5 @@ Then the sign is negative like this.
 int8_t a = 97;
 std::cout << a;
 ```
+
+Output:
