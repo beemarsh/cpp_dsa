@@ -128,3 +128,7 @@ std::cout << a;
 ```
 
 Output:
+
+```cpp
+a
+```
