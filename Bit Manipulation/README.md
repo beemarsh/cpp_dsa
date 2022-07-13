@@ -132,3 +132,5 @@ Output:
 ```cpp
 a
 ```
+
+Here we can see that the output is not `97` but `a`. This is because the compiler implicitly converts any 8 bit data type which has integer into their equivalent ASCII value.
