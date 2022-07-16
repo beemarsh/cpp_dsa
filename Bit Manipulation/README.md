@@ -134,3 +134,5 @@ a
 ```
 
 Here we can see that the output is not `97` but `a`. This is because the compiler implicitly converts any 8 bit data type which has integer into their equivalent ASCII value.
+
+We can avoid that by using `static_cast` and converting 8 bit data type to any other higher bit data type.
