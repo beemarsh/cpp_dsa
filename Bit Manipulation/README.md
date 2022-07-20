@@ -141,3 +141,5 @@ We can avoid that by using `static_cast` and converting 8 bit data type to any o
 int8_t a= 97;
 std::cout << static_cast<int>(a);
 ```
+
+Output:
