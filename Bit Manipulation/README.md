@@ -143,3 +143,7 @@ std::cout << static_cast<int>(a);
 ```
 
 Output:
+
+```cpp
+97
+```
