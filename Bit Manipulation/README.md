@@ -147,3 +147,5 @@ Output:
 ```cpp
 97
 ```
+
+## Unsigned 8-Bit Integers
