@@ -149,3 +149,5 @@ Output:
 ```
 
 ## Unsigned 8-Bit Integers
+
+The only difference unsigned integers have is that MSB doesn't represent a sign bit.
