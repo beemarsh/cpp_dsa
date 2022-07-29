@@ -156,3 +156,5 @@ The only difference unsigned integers have is that MSB doesn't represent a sign 
 uint8_t a = 97;
 //Same as unsigned char a = 97
 ```
+
+The binary equivalent of `97` is : `01100001`
