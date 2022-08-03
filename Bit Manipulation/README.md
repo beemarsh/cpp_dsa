@@ -173,3 +173,5 @@ graph LR
 ```
 
 And when we retrieve the value from the memory it gets converted to its desired value.
+
+ $0^{7}$ +  $2^{6}$ +  $2^{5}$ +  $0^{4}$ +  $0^{3}$ +  $0^{2}$ +  $0^{1}$ +  $2^{0}$  = 97
