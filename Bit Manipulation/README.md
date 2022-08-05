@@ -177,3 +177,14 @@ And when we retrieve the value from the memory it gets converted to its desired 
  $0^{7}$ +  $2^{6}$ +  $2^{5}$ +  $0^{4}$ +  $0^{3}$ +  $0^{2}$ +  $0^{1}$ +  $2^{0}$  = 97
  
  Lets say if the left most bit was `1` like below.
+ 
+ ```mermaid
+graph LR
+    A[1] --- B[1]
+    B --- C[1]
+    C --- D[0]
+    D --- E[0]
+    E --- F[0]
+    F --- G[0]
+    G --- H[1]
+```
