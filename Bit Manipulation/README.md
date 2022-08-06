@@ -188,3 +188,5 @@ graph LR
     F --- G[0]
     G --- H[1]
 ```
+
+The sign is not negative. So the value differs.
