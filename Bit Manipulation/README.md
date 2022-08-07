@@ -190,3 +190,5 @@ graph LR
 ```
 
 The sign is not negative. So the value differs.
+
+ $2^{7}$ +  $2^{6}$ +  $2^{5}$ +  $0^{4}$ +  $0^{3}$ +  $0^{2}$ +  $0^{1}$ +  $2^{0}$  = 225
