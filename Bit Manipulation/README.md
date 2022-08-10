@@ -194,3 +194,16 @@ The sign is not negative. So the value differs.
  $2^{7}$ +  $2^{6}$ +  $2^{5}$ +  $0^{4}$ +  $0^{3}$ +  $0^{2}$ +  $0^{1}$ +  $2^{0}$  = 225
  
  ## Other data types
+ 
+ 
+| Data Type       | Size in 32-bit System | Size in 64-bit System |
+|-----------------|----------------------|----------------------|
+| `char`          | 1 byte               | 1 byte               |
+| `short`         | 2 bytes              | 2 bytes              |
+| `int`           | 4 bytes              | 4 bytes              |
+| `long`          | 4 bytes              | 8 bytes              |
+| `long long`     | 8 bytes              | 8 bytes              |
+| `float`         | 4 bytes              | 4 bytes              |
+| `double`        | 8 bytes              | 8 bytes              |
+| `long double`   | 8 bytes              | 16 bytes             |
+| `bool`          | 1 byte               | 1 byte               |
