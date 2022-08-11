@@ -207,3 +207,5 @@ The sign is not negative. So the value differs.
 | `double`        | 8 bytes              | 8 bytes              |
 | `long double`   | 8 bytes              | 16 bytes             |
 | `bool`          | 1 byte               | 1 byte               |
+
+## Integer Promotion
