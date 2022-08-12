@@ -209,3 +209,5 @@ The sign is not negative. So the value differs.
 | `bool`          | 1 byte               | 1 byte               |
 
 ## Integer Promotion
+
+Integer promotion is the implicit conversion of a value of any integer type with rank less or equal to rank of `int` or of a bit-field of type `_Bool`, `int`, `signed int`, `unsigned int`, to the value of type `int` or `unsigned int`.
