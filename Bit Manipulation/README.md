@@ -213,3 +213,5 @@ The sign is not negative. So the value differs.
 Integer promotion is the implicit conversion of a value of any integer type with rank less or equal to rank of `int` or of a bit-field of type `_Bool`, `int`, `signed int`, `unsigned int`, to the value of type `int` or `unsigned int`.
 
 If `int` can represent the entire range of values of the original type (or the range of values of the original bit-field), the value is converted to type `int`. Otherwise the value is converted to `unsigned  int`.
+
+Note: integer promotions are applied only
