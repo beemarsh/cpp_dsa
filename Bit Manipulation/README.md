@@ -215,3 +215,10 @@ Integer promotion is the implicit conversion of a value of any integer type with
 If `int` can represent the entire range of values of the original type (or the range of values of the original bit-field), the value is converted to type `int`. Otherwise the value is converted to `unsigned  int`.
 
 Note: integer promotions are applied only
+
+
+-   as part of  _usual arithmetic conversions_ 
+-   as part of  _default argument promotions_
+-   to the operand of the unary arithmetic operators  `+`  and  `-`
+-   to the operand of the unary bitwise operator  `~`
+-   to both operands of the shift operators  `<<`  and  `>>`
