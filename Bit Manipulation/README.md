@@ -222,3 +222,5 @@ Note: integer promotions are applied only
 -   to the operand of the unary arithmetic operators  `+`  and  `-`
 -   to the operand of the unary bitwise operator  `~`
 -   to both operands of the shift operators  `<<`  and  `>>`
+
+### Ranking
