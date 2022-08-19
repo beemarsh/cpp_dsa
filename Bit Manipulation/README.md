@@ -224,3 +224,13 @@ Note: integer promotions are applied only
 -   to both operands of the shift operators  `<<`  and  `>>`
 
 ### Ranking
+
+- the ranks of all signed integer types are different and increase with their precision: rank of  `signed  char`  < rank of  `short`  < rank of  `int`  < rank of  `long  int`  < rank of  `long  long  int`
+
+- the ranks of all signed integer types equal the ranks of the corresponding unsigned integer types
+
+- the rank of any standard integer type is greater than the rank of any extended integer type of the same size (that is, rank of  `__int64`  < rank of  `long  long  int`, but rank of  `long  long`  < rank of  `__int128`  due to the rule  (1))
+	
+- rank of  `char`  equals rank of  `signed  char`  and rank of  `unsigned  char`
+
+- the rank of  `_Bool`  is less than the rank of any other standard integer type
