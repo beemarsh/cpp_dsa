@@ -234,3 +234,5 @@ Note: integer promotions are applied only
 - rank of  `char`  equals rank of  `signed  char`  and rank of  `unsigned  char`
 
 - the rank of  `_Bool`  is less than the rank of any other standard integer type
+
+## Implicit Conversions
