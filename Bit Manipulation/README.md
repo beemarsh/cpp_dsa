@@ -236,3 +236,5 @@ Note: integer promotions are applied only
 - the rank of  `_Bool`  is less than the rank of any other standard integer type
 
 ## Implicit Conversions
+
+When an expression is used in the context where a value of a different type is expected, conversion may occur:
