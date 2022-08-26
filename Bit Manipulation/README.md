@@ -242,3 +242,17 @@ When an expression is used in the context where a value of a different type is e
 - In the assignment operator, the value of the right-hand operand is converted to the unqualified type of the left-hand operand.
 
 For example::
+
+```cpp
+int a = 2.5;
+//a gets converted to 2
+
+float b = 2;
+//gets converted to 2.0
+
+int c = true;
+//gets converted to 1
+
+bool d = 25;
+//gets converted to 1
+```
