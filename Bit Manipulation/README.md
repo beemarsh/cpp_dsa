@@ -256,3 +256,5 @@ int c = true;
 bool d = 25;
 //gets converted to 1
 ```
+
+- In a function-call expression, to a function that has a prototype, the value of each argument expression is converted to the type of the unqualified declared types of the corresponding parameter
