@@ -258,3 +258,5 @@ bool d = 25;
 ```
 
 - In a function-call expression, to a function that has a prototype, the value of each argument expression is converted to the type of the unqualified declared types of the corresponding parameter
+
+For example::
