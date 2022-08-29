@@ -260,3 +260,14 @@ bool d = 25;
 - In a function-call expression, to a function that has a prototype, the value of each argument expression is converted to the type of the unqualified declared types of the corresponding parameter
 
 For example::
+
+```cpp
+int add_nums(int a, int b, int c){
+	return a + b + c;
+}
+
+int main(){
+int sum = add_nums(2, 'c', true); 
+// add_nums is called with three ints: (2, 99, 1)
+}
+```
