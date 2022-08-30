@@ -271,3 +271,5 @@ int sum = add_nums(2, 'c', true);
 // add_nums is called with three ints: (2, 99, 1)
 }
 ```
+
+- In a return statement, the value of the operand of return is converted to an object having the return type of the function
