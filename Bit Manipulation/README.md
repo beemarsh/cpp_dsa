@@ -275,3 +275,14 @@ int sum = add_nums(2, 'c', true);
 - In a return statement, the value of the operand of return is converted to an object having the return type of the function
 
 For example:
+
+```cpp
+int num(){
+	return 5.55;
+}
+
+int main(){
+std::cout << num();
+// 5.55 gets converted to 5
+}
+```
