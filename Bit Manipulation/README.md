@@ -286,3 +286,5 @@ std::cout << num();
 // 5.55 gets converted to 5
 }
 ```
+
+### Usual arithmetic conversions
