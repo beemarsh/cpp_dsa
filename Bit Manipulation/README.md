@@ -290,3 +290,8 @@ std::cout << num();
 ### Usual arithmetic conversions
 
 The arguments of the following arithmetic operators undergo implicit conversions for the purpose of obtaining the common real type, which is the type in which the calculation is performed:
+
+- binary arithmetic `*`, `/`, `%`, `+`, `-`
+- relational operators `<`,`>`, `<=`, `>=`, `==`, `!=`
+- binary bitwise arithmetic :: `&`, `^`, `|`, `~`
+- conditional operator `?` `:`
