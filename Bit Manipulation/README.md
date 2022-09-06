@@ -295,3 +295,5 @@ The arguments of the following arithmetic operators undergo implicit conversions
 - relational operators `<`,`>`, `<=`, `>=`, `==`, `!=`
 - binary bitwise arithmetic :: `&`, `^`, `|`, `~`
 - conditional operator `?` `:`
+
+At this point, I am not documenting about complex and imaginary numbers.
