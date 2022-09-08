@@ -299,3 +299,5 @@ The arguments of the following arithmetic operators undergo implicit conversions
 At this point, I am not documenting about complex and imaginary numbers.
 
 For more detals, [Click here](https://en.cppreference.com/w/c/language/conversion#:~:text=Integer%20promotion%20is%20the%20implicit,type%20int%20or%20unsigned%20int.)
+
+If both operands are integers, both operands undergo _integer promotions_ (see above); then, after integer promotion, one of the following cases applies:
