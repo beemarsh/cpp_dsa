@@ -301,3 +301,12 @@ At this point, I am not documenting about complex and imaginary numbers.
 For more detals, [Click here](https://en.cppreference.com/w/c/language/conversion#:~:text=Integer%20promotion%20is%20the%20implicit,type%20int%20or%20unsigned%20int.)
 
 If both operands are integers, both operands undergo _integer promotions_ (see above); then, after integer promotion, one of the following cases applies:
+
+-   If the types are the same, that type is the common type.
+-   Else, the types are different:
+    -   If the types have the same signedness (both `signed` or both `unsigned`), the operand whose type has the lesser  _conversion rank_  is implicitly converted  to the other type.
+    -   Else, the operands have different signedness:
+        -   If the `unsigned` type has  _conversion rank_  greater than or equal to the rank of the `signed` type, then the operand with the `signed` type is implicitly converted to the `unsigned` type.
+        -   Else, the `unsigned` type has  _conversion rank_  less than the `signed` type:
+            -   If the `signed` type can represent all values of the `unsigned` type, then the operand with the `unsigned` type is implicitly converted to the `signed` type.
+            -   Else, both operands undergo implicit conversion to the `unsigned` type counterpart of the `signed` operand's type.
