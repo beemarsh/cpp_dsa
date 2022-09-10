@@ -310,3 +310,5 @@ If both operands are integers, both operands undergo _integer promotions_ (see a
         -   Else, the `unsigned` type has  _conversion rank_  less than the `signed` type:
             -   If the `signed` type can represent all values of the `unsigned` type, then the operand with the `unsigned` type is implicitly converted to the `signed` type.
             -   Else, both operands undergo implicit conversion to the `unsigned` type counterpart of the `signed` operand's type.
+            
+            ## Integer conversions
