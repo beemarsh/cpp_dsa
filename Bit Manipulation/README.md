@@ -318,5 +318,7 @@ A value of any integer type can be implicitly converted to any other integer typ
 -   if the target type can represent the value, the value is unchanged
 -   otherwise, if the target type is unsigned, the value  2b , where  b  is the number of value bits in the target type, is repeatedly subtracted or added to the source value until the result fits in the target type.
 -   otherwise, if the target type is signed, the behavior is implementation-defined (which may include raising a signal)
+
+Example:
             
             
