@@ -320,5 +320,10 @@ A value of any integer type can be implicitly converted to any other integer typ
 -   otherwise, if the target type is signed, the behavior is implementation-defined (which may include raising a signal)
 
 Example:
+
+```cpp
+unsigned char a = -100056;
+std::cout << a;
+```
             
             
