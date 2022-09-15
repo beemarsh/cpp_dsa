@@ -325,5 +325,7 @@ Example:
 unsigned char a = -100056;
 std::cout << a;
 ```
+
+Output:
             
             
