@@ -333,5 +333,7 @@ Output:
 ```
 
 Here the output is shocking.
+
+The assigned data type is 1 byte `unsigned char`. So number of bits `b = 8`.  It also cannot store negative numbers. So it is added until the number becomes positive.
             
             
