@@ -337,5 +337,7 @@ Here the output is shocking.
 The assigned data type is 1 byte `unsigned char`. So number of bits `b = 8`.  It also cannot store negative numbers. So it is added until the number becomes positive.
 
 -100056 + 391 * $2^{8}$ = 40;
+
+The number becomes positive after adding 391 times.
             
             
