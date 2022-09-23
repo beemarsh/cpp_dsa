@@ -341,5 +341,7 @@ The assigned data type is 1 byte `unsigned char`. So number of bits `b = 8`.  It
 The number becomes positive after adding 391 times.
 
 The ASCII equivalent of 40 is `(`.
+
+## Bitwise Operators
             
             
