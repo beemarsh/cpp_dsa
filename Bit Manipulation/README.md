@@ -343,5 +343,7 @@ The number becomes positive after adding 391 times.
 The ASCII equivalent of 40 is `(`.
 
 ## Bitwise Operators
+
+- ### Bitwise AND operator (&)
             
             
