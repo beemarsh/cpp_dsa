@@ -345,5 +345,7 @@ The ASCII equivalent of 40 is `(`.
 ## Bitwise Operators
 
 - ### Bitwise AND operator (&)
+
+	The bitwise AND operator is denoted using a single ampersand symbol, i.e. &. The & operator takes two equal-length bit patterns as parameters. The two-bit integers are compared. If the bits in the compared positions of the bit patterns are 1, then the resulting bit is 1. If not, it is 0.
             
             
