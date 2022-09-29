@@ -362,5 +362,9 @@ std::cout << result;
 ```
 
 Output:
+
+```cpp
+2
+```
             
             
