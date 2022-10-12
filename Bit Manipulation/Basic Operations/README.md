@@ -26,3 +26,16 @@ graph LR
 ```
 
 The above set of bits is not `0`. So, the $2^{nd}$ bit is `1`.
+
+```cpp
+#include<iostream>
+
+int main(){
+	int a = 0b101;
+	int i = 2;
+	int output = a & (1 << i);
+
+	if(output!=0) std::cout << 1;
+	else std::cout << 0;
+}
+```
