@@ -39,3 +39,5 @@ int main(){
 	else std::cout << 0;
 }
 ```
+
+Output:
