@@ -41,3 +41,7 @@ int main(){
 ```
 
 Output:
+
+```cpp
+1
+```
