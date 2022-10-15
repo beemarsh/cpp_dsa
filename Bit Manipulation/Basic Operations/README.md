@@ -45,3 +45,5 @@ Output:
 ```cpp
 1
 ```
+
+We can also achieve the same results by using class template `bitset`.
