@@ -17,3 +17,5 @@ Also, lets right shift `1` by `i` i.e. `1 << i`
 graph LR
     A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[1] --- G[0] --- H[0]
 ```
+
+Now lets perform `&` operation on above set of bits, we get: `00000101` & `00000100` = `00000100`
