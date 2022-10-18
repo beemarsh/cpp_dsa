@@ -58,3 +58,5 @@ int main(){
 	//Similar: a.test(2);
 }
 ```
+
+- ### Set Bit:
