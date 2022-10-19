@@ -60,3 +60,5 @@ int main(){
 ```
 
 - ### Set Bit:
+
+We can easily set the value of an $i^{th}$ bit to `1` by using left-shift operator `<<` and `|` operator.
