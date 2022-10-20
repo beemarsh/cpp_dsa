@@ -62,3 +62,5 @@ int main(){
 - ### Set Bit:
 
 We can easily set the value of an $i^{th}$ bit to `1` by using left-shift operator `<<` and `|` operator.
+
+Let us consider a 8 bit integer: `00000101`. We have to update the $1^{st}$ integer i.e `i=1` to `1`.
