@@ -71,3 +71,8 @@ graph LR
 ```
 
 Also, lets right shift `1` by `i` i.e. `1 << i`
+
+```mermaid
+graph LR
+    A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[0] --- G[1] --- H[0]
+```
