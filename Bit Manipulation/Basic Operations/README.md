@@ -83,3 +83,5 @@ Now lets perform `|` operation on above set of bits, we get: `00000101` | `00000
 graph LR
     A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[1] --- G[1] --- H[1]
 ```
+
+Now, the $1^{st}$ bit is set to`1`. And the new set of bits is: `00000111`
