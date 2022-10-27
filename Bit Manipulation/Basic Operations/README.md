@@ -85,3 +85,12 @@ graph LR
 ```
 
 Now, the $1^{st}$ bit is set to`1`. And the new set of bits is: `00000111`
+
+```cpp
+int a = 0b101;
+int i = 1;
+a |= (1 << i);
+
+//We cannot directly output binary. It gets implicity converted. So we type cast to bitset
+std::cout << (std::bitset<8>) a;
+```
