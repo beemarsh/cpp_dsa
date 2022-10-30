@@ -100,3 +100,5 @@ Output:
 ```cpp
 00000111
 ```
+
+We can also achieve the same results by using class template `bitset`.
