@@ -102,3 +102,15 @@ Output:
 ```
 
 We can also achieve the same results by using class template `bitset`.
+
+```cpp
+#include <bitset>
+#include <iostream>
+
+int main(){
+	std::bitset<8>a(0b101);
+	a.set(1);
+	std::cout << a;
+	//Output: 00000111
+}
+```
