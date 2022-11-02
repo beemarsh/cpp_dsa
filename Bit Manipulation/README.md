@@ -370,5 +370,7 @@ Output:
 **Note:** It is different from **&&** logical operator which returns either `1` or `0`. `&` operator performs bitwise operation on each bits.
 
 - ### Bitwise OR operator (|)
+
+	The `|` Operator takes two equivalent length bit designs as boundaries; if the two bits in the looked-at position are 0, the next bit is zero. If not, it is 1.
             
             
