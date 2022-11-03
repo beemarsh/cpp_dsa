@@ -372,5 +372,12 @@ Output:
 - ### Bitwise OR operator (|)
 
 	The `|` Operator takes two equivalent length bit designs as boundaries; if the two bits in the looked-at position are 0, the next bit is zero. If not, it is 1.
+	
+	|   X   |   Y   |  X OR Y  |
+|-------|-------|----------|
+|   0   |   0   |    0     |
+|   0   |   1   |    1     |
+|   1   |   0   |    1     |
+|   1   |   1   |    1     |
             
             
