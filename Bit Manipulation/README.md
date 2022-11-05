@@ -385,5 +385,7 @@ int a = 6, b = 3;
 int result = a | b;
 std::cout << result;
 ```
+
+Output:
             
             
