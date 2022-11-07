@@ -391,5 +391,7 @@ Output:
 ```cpp
 7
 ```
+
+**Note:** It is different from **||** logical operator which returns either `1` or `0`. `|` operator performs bitwise operation on each bits.
             
             
