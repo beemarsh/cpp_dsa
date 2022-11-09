@@ -395,5 +395,7 @@ Output:
 **Note:** It is different from **||** logical operator which returns either `1` or `0`. `|` operator performs bitwise operation on each bits.
 
 **Interestingly!! The bitwise OR of two numbers is just the sum of those two numbers if there is no carry involved, otherwise, you just add their bitwise AND.**  
+
+Let’s say, we have a=5(101) and b=2(010), since there is no carry involved, their sum is just a|b.
             
             
