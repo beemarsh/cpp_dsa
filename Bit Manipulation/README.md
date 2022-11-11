@@ -399,5 +399,7 @@ Output:
 Let’s say, we have a=5(101) and b=2(010), since there is no carry involved, their sum is just a|b.
 
 Now, if we change ‘a’ to 6 which is 110 in binary, their sum would change to a|b + a&b since there is a carry involved.
+
+- ### Bitwise XOR operator (||)
             
             
