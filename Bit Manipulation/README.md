@@ -403,5 +403,12 @@ Now, if we change ‘a’ to 6 which is 110 in binary, their sum would change to
 - ### Bitwise XOR operator (||)
 
 	The `^` operator (also known as the XOR operator) stands for Exclusive Or. Here, if bits in the compared position do not match their resulting bit is 1.
+	
+	|   X   |   Y   |  X XOR Y  |
+|-------|-------|-----------|
+|   0   |   0   |     0     |
+|   0   |   1   |     1     |
+|   1   |   0   |     1     |
+|   1   |   1   |     0     |
             
             
