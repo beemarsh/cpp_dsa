@@ -410,5 +410,11 @@ Now, if we change ‘a’ to 6 which is 110 in binary, their sum would change to
 |   0   |   1   |     1     |
 |   1   |   0   |     1     |
 |   1   |   1   |     0     |
+
+```cpp
+int a = 6, b = 3;
+int result = a ^ b;
+std::cout << result;
+```
             
             
