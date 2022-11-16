@@ -418,5 +418,9 @@ std::cout << result;
 ```
 
 Output:
+
+```cpp
+5
+```
             
             
