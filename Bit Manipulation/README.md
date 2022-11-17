@@ -422,5 +422,7 @@ Output:
 ```cpp
 5
 ```
+
+**The bitwise XOR operator is the most useful operator from** a **technical interview perspective.**
             
             
