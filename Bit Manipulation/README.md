@@ -424,5 +424,7 @@ Output:
 ```
 
 **The bitwise XOR operator is the most useful operator from** a **technical interview perspective.**
+
+It is used in many problems. A simple example could be “Given a set of numbers where all elements occur an even number of times except one number, find the odd occurring number” This problem can be efficiently solved by just doing XOR to all numbers.
             
             
