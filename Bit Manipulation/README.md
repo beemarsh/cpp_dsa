@@ -430,5 +430,10 @@ It is used in many problems. A simple example could be “Given a set of numbers
 - ### Bitwise NOT operator (~)
 
 	The bitwise Not Operator takes a single value and returns its one’s complement. The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the 0 bit to 1 and the 1 bit to 0.
+	
+	|   X   |  ~X  |
+|-------|---------|
+|   0   |    1    |
+|   1   |    0    |
             
             
