@@ -435,5 +435,11 @@ It is used in many problems. A simple example could be “Given a set of numbers
 |-------|---------|
 |   0   |    1    |
 |   1   |    0    |
+
+```cpp
+int a = 6, b = 3;
+int result = a ^ b;
+std::cout << result;
+```
             
             
