@@ -453,5 +453,7 @@ Output:
 - ### Bitwise Left Shift operator (<<)
 
 	The << (left shift) takes two numbers, the left shifts the bits of the first operand, and the second operand decides the number of places to shift. 
+	
+	Let us take the number `5`. Its binary equivalent is `00000101`
             
             
