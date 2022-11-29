@@ -455,5 +455,10 @@ Output:
 	The << (left shift) takes two numbers, the left shifts the bits of the first operand, and the second operand decides the number of places to shift. 
 	
 	Let us take the number `5`. Its binary equivalent is `00000101`
+	
+```mermaid
+graph LR
+    A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[1] --- G[0] --- H[1]
+```
             
             
