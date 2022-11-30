@@ -460,5 +460,7 @@ Output:
 graph LR
     A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[1] --- G[0] --- H[1]
 ```
+
+Now we left shift the above bits by 2. i.e `5 << 2`
             
             
