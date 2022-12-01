@@ -462,5 +462,7 @@ graph LR
 ```
 
 Now we left shift the above bits by 2. i.e `5 << 2`
+
+The 2 remaining bits after shifting are filled with 0.
             
             
