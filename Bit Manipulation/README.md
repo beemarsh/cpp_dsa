@@ -464,5 +464,10 @@ graph LR
 Now we left shift the above bits by 2. i.e `5 << 2`
 
 The 2 remaining bits after shifting are filled with 0.
+
+```mermaid
+graph LR
+    A[0] --- B[0] --- C[0] --- D[1] --- E[0] --- F[1] --- G[0] --- H[0]
+```
             
             
