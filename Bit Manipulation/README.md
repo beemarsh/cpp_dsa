@@ -469,5 +469,7 @@ The 2 remaining bits after shifting are filled with 0.
 graph LR
     A[0] --- B[0] --- C[0] --- D[1] --- E[0] --- F[1] --- G[0] --- H[0]
 ```
+
+So, the new set of bits are: `00010100` which is equivalent to 20.
             
             
