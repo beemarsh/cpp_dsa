@@ -471,5 +471,10 @@ graph LR
 ```
 
 So, the new set of bits are: `00010100` which is equivalent to 20.
+
+```cpp
+int a = 5;
+std::cout << (a << 2);
+```
             
             
