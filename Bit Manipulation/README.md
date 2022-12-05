@@ -476,5 +476,7 @@ So, the new set of bits are: `00010100` which is equivalent to 20.
 int a = 5;
 std::cout << (a << 2);
 ```
+
+Output:
             
             
