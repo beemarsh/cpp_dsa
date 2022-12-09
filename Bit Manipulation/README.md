@@ -478,5 +478,11 @@ std::cout << (a << 2);
 ```
 
 Output:
+
+```cpp
+20
+```
+
+- ### Bitwise Right Shift operator (>>)
             
             
