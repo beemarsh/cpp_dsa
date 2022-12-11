@@ -484,5 +484,7 @@ Output:
 ```
 
 - ### Bitwise Right Shift operator (>>)
+
+	The >> (right shift) takes two numbers, the right shifts the bits of the first operand, and the second operand decides the number of places to shift. 
             
             
