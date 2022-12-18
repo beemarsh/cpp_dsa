@@ -502,5 +502,7 @@ The 2 remaining bits after shifting are filled with 0.
 graph LR
     A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[0] --- G[0] --- H[1]
 ```
+
+So, the new set of bits are: `00000001` which is equivalent to 1.
             
             
