@@ -504,5 +504,10 @@ graph LR
 ```
 
 So, the new set of bits are: `00000001` which is equivalent to 1.
+
+```cpp
+int a = 5;
+std::cout << (a >> 2);
+```
             
             
