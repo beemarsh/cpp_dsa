@@ -509,5 +509,7 @@ So, the new set of bits are: `00000001` which is equivalent to 1.
 int a = 5;
 std::cout << (a >> 2);
 ```
+
+Output:
             
             
