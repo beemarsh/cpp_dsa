@@ -517,5 +517,9 @@ Output:
 ```
 
 **Note:**  
+
+- The left-shift and right-shift operators should not be used for negative numbers. If the second operand(which decides the number of shifts) is a negative number, it results in undefined behavior.
+- Also, if the number is shifted more than the size of the integer, the behavior is undefined.
+-  Another thing is NO shift operation is performed if the additive expression (operand that decides no of shifts) is 0.
             
             
