@@ -1,3 +1,4 @@
+
 # Bit Manipulation
 
 An algorithmic operation known as **bit manipulation** involves the manipulation of bits at the bit level (bitwise). Bit manipulation is all about these bitwise operations. They improve the efficiency of programs by being primitive, fast actions.
@@ -71,6 +72,7 @@ Since each computer uses its same endianness to both store and retrieve the inte
 
 Big-endianness is the dominant ordering in networking protocols, such as in the Internet protocol suite, where it is referred to as network order, transmitting the most significant byte first. Conversely, little-endianness is the dominant ordering for processor architectures (x86, most ARM implementations, base RISC-V implementations) and their associated memory.
 
+
 ### Fun Fact::
 
 In the 1726 novel Gulliver's Travels, he portrays the conflict between sects of Lilliputians divided into those breaking the shell of a boiled egg from the big end or from the little end. Because the emperor's son had cut his finger while opening an egg from the big end, doing so was prohibited by an imperial edict; those who rebelled and did so were called "Big-Endians" (Swift did not use the term Little-Endians in the work).
@@ -100,12 +102,12 @@ graph LR
 And when we retrieve the value from the memory it gets converted to its desired value.
 
  $0^{7}$ +  $2^{6}$ +  $2^{5}$ +  $0^{4}$ +  $0^{3}$ +  $0^{2}$ +  $0^{1}$ +  $2^{0}$  = 97
- 
- It is a signed bit, so the left most bit is the sign bit. It is 0 which means positive.
- 
- Lets say if the left most bit was `1` like below.
- 
- ```mermaid
+
+It is a signed bit, so the left most bit is the sign bit. It is 0 which means positive.
+
+Lets say if the left most bit was `1` like below.
+
+```mermaid
 graph LR
     A[1] --- B[1]
     B --- C[1]
@@ -119,14 +121,13 @@ graph LR
 Then the sign is negative like this.
 
  -$2^{7}$ +  $2^{6}$ +  $2^{5}$ +  $0^{4}$ +  $0^{3}$ +  $0^{2}$ +  $0^{1}$ +  $2^{0}$  = -31
- 
- ### 8-bit Integer implicit type conversion
- 
- ```cpp
+
+
+### 8-bit Integer implicit type conversion
+```cpp
 int8_t a = 97;
 std::cout << a;
 ```
-
 Output:
 
 ```cpp
@@ -147,6 +148,7 @@ Output:
 ```cpp
 97
 ```
+
 
 ## Unsigned 8-Bit Integers
 
@@ -175,10 +177,10 @@ graph LR
 And when we retrieve the value from the memory it gets converted to its desired value.
 
  $0^{7}$ +  $2^{6}$ +  $2^{5}$ +  $0^{4}$ +  $0^{3}$ +  $0^{2}$ +  $0^{1}$ +  $2^{0}$  = 97
- 
- Lets say if the left most bit was `1` like below.
- 
- ```mermaid
+
+Lets say if the left most bit was `1` like below.
+
+```mermaid
 graph LR
     A[1] --- B[1]
     B --- C[1]
@@ -192,10 +194,10 @@ graph LR
 The sign is not negative. So the value differs.
 
  $2^{7}$ +  $2^{6}$ +  $2^{5}$ +  $0^{4}$ +  $0^{3}$ +  $0^{2}$ +  $0^{1}$ +  $2^{0}$  = 225
- 
- ## Other data types
- 
- 
+
+
+## Other data types
+
 | Data Type       | Size in 32-bit System | Size in 64-bit System |
 |-----------------|----------------------|----------------------|
 | `char`          | 1 byte               | 1 byte               |
@@ -208,6 +210,7 @@ The sign is not negative. So the value differs.
 | `long double`   | 8 bytes              | 16 bytes             |
 | `bool`          | 1 byte               | 1 byte               |
 
+
 ## Integer Promotion
 
 Integer promotion is the implicit conversion of a value of any integer type with rank less or equal to rank of `int` or of a bit-field of type `_Bool`, `int`, `signed int`, `unsigned int`, to the value of type `int` or `unsigned int`.
@@ -216,7 +219,6 @@ If `int` can represent the entire range of values of the original type (or the r
 
 Note: integer promotions are applied only
 
-
 -   as part of  _usual arithmetic conversions_ 
 -   as part of  _default argument promotions_
 -   to the operand of the unary arithmetic operators  `+`  and  `-`
@@ -224,7 +226,6 @@ Note: integer promotions are applied only
 -   to both operands of the shift operators  `<<`  and  `>>`
 
 ### Ranking
-
 - the ranks of all signed integer types are different and increase with their precision: rank of  `signed  char`  < rank of  `short`  < rank of  `int`  < rank of  `long  int`  < rank of  `long  long  int`
 
 - the ranks of all signed integer types equal the ranks of the corresponding unsigned integer types
@@ -234,6 +235,7 @@ Note: integer promotions are applied only
 - rank of  `char`  equals rank of  `signed  char`  and rank of  `unsigned  char`
 
 - the rank of  `_Bool`  is less than the rank of any other standard integer type
+
 
 ## Implicit Conversions
 
@@ -256,6 +258,7 @@ int c = true;
 bool d = 25;
 //gets converted to 1
 ```
+
 
 - In a function-call expression, to a function that has a prototype, the value of each argument expression is converted to the type of the unqualified declared types of the corresponding parameter
 
@@ -310,7 +313,7 @@ If both operands are integers, both operands undergo _integer promotions_ (see a
         -   Else, the `unsigned` type has  _conversion rank_  less than the `signed` type:
             -   If the `signed` type can represent all values of the `unsigned` type, then the operand with the `unsigned` type is implicitly converted to the `signed` type.
             -   Else, both operands undergo implicit conversion to the `unsigned` type counterpart of the `signed` operand's type.
-            
+
 ## Integer conversions
 
 A value of any integer type can be implicitly converted to any other integer type. Except where covered by promotions and boolean conversions above, the rules are:
@@ -345,10 +348,9 @@ The ASCII equivalent of 40 is `(`.
 ## Bitwise Operators
 
 - ### Bitwise AND operator (&)
-
 	The bitwise AND operator is denoted using a single ampersand symbol, i.e. &. The & operator takes two equal-length bit patterns as parameters. The two-bit integers are compared. If the bits in the compared positions of the bit patterns are 1, then the resulting bit is 1. If not, it is 0.
-	
-	|   X   |   Y   |  X&Y  |
+
+|   X   |   Y   |  X&Y  |
 |-------|-------|-----------|
 |   0   |   0   |     0     |
 |   0   |   1   |     0     |
@@ -370,15 +372,15 @@ Output:
 **Note:** It is different from **&&** logical operator which returns either `1` or `0`. `&` operator performs bitwise operation on each bits.
 
 - ### Bitwise OR operator (|)
-
 	The `|` Operator takes two equivalent length bit designs as boundaries; if the two bits in the looked-at position are 0, the next bit is zero. If not, it is 1.
-	
-	|   X   |   Y   |  X OR Y  |
+
+|   X   |   Y   |  X OR Y  |
 |-------|-------|----------|
 |   0   |   0   |    0     |
 |   0   |   1   |    1     |
 |   1   |   0   |    1     |
 |   1   |   1   |    1     |
+
 
 ```cpp
 int a = 6, b = 3;
@@ -401,15 +403,16 @@ Let’s say, we have a=5(101) and b=2(010), since there is no carry involved, th
 Now, if we change ‘a’ to 6 which is 110 in binary, their sum would change to a|b + a&b since there is a carry involved.
 
 - ### Bitwise XOR operator (||)
-
 	The `^` operator (also known as the XOR operator) stands for Exclusive Or. Here, if bits in the compared position do not match their resulting bit is 1.
-	
-	|   X   |   Y   |  X XOR Y  |
+
+|   X   |   Y   |  X XOR Y  |
 |-------|-------|-----------|
 |   0   |   0   |     0     |
 |   0   |   1   |     1     |
 |   1   |   0   |     1     |
 |   1   |   1   |     0     |
+
+
 
 ```cpp
 int a = 6, b = 3;
@@ -424,14 +427,13 @@ Output:
 ```
 
 **The bitwise XOR operator is the most useful operator from** a **technical interview perspective.**
-
+  
 It is used in many problems. A simple example could be “Given a set of numbers where all elements occur an even number of times except one number, find the odd occurring number” This problem can be efficiently solved by just doing XOR to all numbers.
 
 - ### Bitwise NOT operator (~)
-
 	The bitwise Not Operator takes a single value and returns its one’s complement. The one’s complement of a binary number is obtained by toggling all bits in it, i.e, transforming the 0 bit to 1 and the 1 bit to 0.
-	
-	|   X   |  ~X  |
+
+|   X   |  ~X  |
 |-------|---------|
 |   0   |    1    |
 |   1   |    0    |
@@ -451,11 +453,10 @@ Output:
 **Note:** It is different from **!** logical operator which returns either `1` or `0`. `~` operator performs bitwise operation on each bits.
 
 - ### Bitwise Left Shift operator (<<)
-
 	The << (left shift) takes two numbers, the left shifts the bits of the first operand, and the second operand decides the number of places to shift. 
-	
-	Let us take the number `5`. Its binary equivalent is `00000101`
-	
+
+Let us take the number `5`. Its binary equivalent is `00000101`
+
 ```mermaid
 graph LR
     A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[1] --- G[0] --- H[1]
@@ -484,11 +485,10 @@ Output:
 ```
 
 - ### Bitwise Right Shift operator (>>)
-
 	The >> (right shift) takes two numbers, the right shifts the bits of the first operand, and the second operand decides the number of places to shift. 
-	
-	Let us take the number `5`. Its binary equivalent is `00000101`
-	
+
+Let us take the number `5`. Its binary equivalent is `00000101`
+
 ```mermaid
 graph LR
     A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[1] --- G[0] --- H[1]
@@ -516,10 +516,8 @@ Output:
 1
 ```
 
-**Note:**  
 
+**Note:**  
 - The left-shift and right-shift operators should not be used for negative numbers. If the second operand(which decides the number of shifts) is a negative number, it results in undefined behavior.
 - Also, if the number is shifted more than the size of the integer, the behavior is undefined.
 -  Another thing is NO shift operation is performed if the additive expression (operand that decides no of shifts) is 0.
-            
-            
