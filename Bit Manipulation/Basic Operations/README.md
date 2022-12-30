@@ -114,3 +114,5 @@ int main(){
 	//Output: 00000111
 }
 ```
+
+- ### Clear Bit:
