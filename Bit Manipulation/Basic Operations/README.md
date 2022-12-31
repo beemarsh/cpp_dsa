@@ -116,3 +116,5 @@ int main(){
 ```
 
 - ### Clear Bit:
+
+We can easily clear the value of an $i^{th}$ bit to `0` by using left-shift `<<`, not `~` , and `&` operator.
