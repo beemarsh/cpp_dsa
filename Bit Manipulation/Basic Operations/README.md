@@ -118,3 +118,5 @@ int main(){
 - ### Clear Bit:
 
 We can easily clear the value of an $i^{th}$ bit to `0` by using left-shift `<<`, not `~` , and `&` operator.
+
+Let us consider a 8 bit integer: `00000101`. We have to clear the $2^{nd}$ integer i.e `i=2` to `0`.
