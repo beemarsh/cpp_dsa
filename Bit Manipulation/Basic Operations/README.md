@@ -134,3 +134,8 @@ graph LR
 ```
 
 Also, lets perform NOT operator on the above bits. i.e `~00000100` = `11111011
+
+```mermaid
+graph LR
+    A[1] --- B[1] --- C[1] --- D[1] --- E[1] --- F[0] --- G[1] --- H[1]
+```
