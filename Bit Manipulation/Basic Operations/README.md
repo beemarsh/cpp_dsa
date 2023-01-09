@@ -146,3 +146,5 @@ Now lets perform `&` operation on above set of bits and our original set of bits
 graph LR
     A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[0] --- G[0] --- H[1]
 ```
+
+Now, the $2^{nd}$ bit is set to`0`. And the new set of bits is: `00000001`
