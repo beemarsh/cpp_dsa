@@ -148,3 +148,12 @@ graph LR
 ```
 
 Now, the $2^{nd}$ bit is set to`0`. And the new set of bits is: `00000001`
+
+```cpp
+int a = 0b101;
+int i = 2;
+a &= ~(1 << i);
+
+//We cannot directly output binary. It gets implicity converted. So we type cast to bitset
+std::cout << (std::bitset<8>) a;
+```
