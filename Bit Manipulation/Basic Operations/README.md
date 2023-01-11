@@ -157,3 +157,5 @@ a &= ~(1 << i);
 //We cannot directly output binary. It gets implicity converted. So we type cast to bitset
 std::cout << (std::bitset<8>) a;
 ```
+
+Output:
