@@ -179,3 +179,5 @@ int main(){
 ```
 
 - ### Update Bit:
+
+We can easily update the value of an $i^{th}$ bit to `K` by using clear bit and set bit like above.
