@@ -181,3 +181,5 @@ int main(){
 - ### Update Bit:
 
 We can easily update the value of an $i^{th}$ bit to `K` by using clear bit and set bit like above.
+
+Let us consider a 8 bit integer: `00000101`. We have to update the $2^{nd}$ integer i.e `i=2` to `K = 0`.
