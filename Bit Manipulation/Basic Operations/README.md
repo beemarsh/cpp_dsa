@@ -202,3 +202,5 @@ Also, lets perform NOT operator on the above bits. i.e `~00000100` = `11111011`
 graph LR
     A[1] --- B[1] --- C[1] --- D[1] --- E[1] --- F[0] --- G[1] --- H[1]
 ```
+
+Now lets perform `&` operation on above set of bits and our original set of bits, we get: `11111011` & `00000101` = `00000001`
