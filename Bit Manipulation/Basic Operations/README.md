@@ -211,3 +211,8 @@ graph LR
 ```
 
 Now we have to perform set bit. Lets left shift `K` which is either `0` or `1` in this case **0** by `i`. i.e `K << i`
+
+```mermaid
+graph LR
+    A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[0] --- G[0] --- H[0]
+```
