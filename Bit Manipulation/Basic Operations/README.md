@@ -216,3 +216,5 @@ Now we have to perform set bit. Lets left shift `K` which is either `0` or `1` i
 graph LR
     A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[0] --- G[0] --- H[0]
 ```
+
+Now perform OR operation on above two sets of bits i.e `00000001` | `00000000` = `00000001`
