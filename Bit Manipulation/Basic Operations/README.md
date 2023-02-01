@@ -218,3 +218,8 @@ graph LR
 ```
 
 Now perform OR operation on above two sets of bits i.e `00000001` | `00000000` = `00000001`
+
+```mermaid
+graph LR
+    A[0] --- B[0] --- C[0] --- D[0] --- E[0] --- F[0] --- G[0] --- H[1]
+```
