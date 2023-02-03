@@ -225,3 +225,12 @@ graph LR
 ```
 
 Now, `0` is set on $2^{nd}$ position.
+
+```cpp
+int a = 0b101, i = 2, K = 0;
+
+a = (K << i) | (a & ~(1 << i));
+
+//We cannot directly output binary. It gets implicity converted. So we type cast to bitset
+std::cout << (std::bitset<8>) a;
+```
