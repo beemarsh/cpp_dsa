@@ -236,3 +236,7 @@ std::cout << (std::bitset<8>) a;
 ```
 
 Output:
+
+```cpp
+00000001
+```
