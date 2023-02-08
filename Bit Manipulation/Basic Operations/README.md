@@ -177,3 +177,5 @@ int main(){
 	//Output: 00000001
 }
 ```
+
+- ### Update Bit:
