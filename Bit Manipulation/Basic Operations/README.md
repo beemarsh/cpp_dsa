@@ -1,9 +1,8 @@
 # Basic Bit Manipulation Operations
 
 - ### Get Bit:
-
 We can easily get the value of an $i^{th}$ bit by using left-shift operator `<<` and `&` operator.
-
+	
 Let us consider a 8 bit integer: `00000101`. We have to find the $2^{nd}$ integer i.e `i=2`.
 
 ```mermaid
@@ -60,9 +59,8 @@ int main(){
 ```
 
 - ### Set Bit:
-
 We can easily set the value of an $i^{th}$ bit to `1` by using left-shift operator `<<` and `|` operator.
-
+	
 Let us consider a 8 bit integer: `00000101`. We have to update the $1^{st}$ integer i.e `i=1` to `1`.
 
 ```mermaid
@@ -116,9 +114,8 @@ int main(){
 ```
 
 - ### Clear Bit:
-
 We can easily clear the value of an $i^{th}$ bit to `0` by using left-shift `<<`, not `~` , and `&` operator.
-
+	
 Let us consider a 8 bit integer: `00000101`. We have to clear the $2^{nd}$ integer i.e `i=2` to `0`.
 
 ```mermaid
@@ -134,7 +131,7 @@ graph LR
 ```
 
 Also, lets perform NOT operator on the above bits. i.e `~00000100` = `11111011
-
+`
 ```mermaid
 graph LR
     A[1] --- B[1] --- C[1] --- D[1] --- E[1] --- F[0] --- G[1] --- H[1]
@@ -179,9 +176,8 @@ int main(){
 ```
 
 - ### Update Bit:
-
 We can easily update the value of an $i^{th}$ bit to `K` by using clear bit and set bit like above.
-
+	
 Let us consider a 8 bit integer: `00000101`. We have to update the $2^{nd}$ integer i.e `i=2` to `K = 0`.
 
 ```mermaid
