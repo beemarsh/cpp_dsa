@@ -8,3 +8,5 @@ A number is power of 2 only if the left most bit is high and all the bits are lo
 | Power  | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 
 ## How to get n-1 using bit manipulation ?
+
+We can get `n-1` by clearing the right most set bit and setting all the bits right of it.
