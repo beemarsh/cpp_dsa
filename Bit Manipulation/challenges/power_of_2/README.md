@@ -14,3 +14,8 @@ We can get `n-1` by clearing the right most set bit and setting all the bits rig
 Lets say `a = 8`. We have to get `a-1` i.e `7`.
 
 The binary equivalent of `8` is : `00001000`
+
+```mermaid
+graph LR
+    A[0] --- B[0] --- C[0] --- D[0] -- Right Most Set Bit --> E[1] --- F[0] --- G[0] --- H[0]
+```
