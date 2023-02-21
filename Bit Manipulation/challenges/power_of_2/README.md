@@ -19,3 +19,5 @@ The binary equivalent of `8` is : `00001000`
 graph LR
     A[0] --- B[0] --- C[0] --- D[0] -- Right Most Set Bit --> E[1] --- F[0] --- G[0] --- H[0]
 ```
+
+Now, we unset the right most set bit and set all the other bits.
