@@ -21,3 +21,8 @@ graph LR
 ```
 
 Now, we unset the right most set bit and set all the other bits.
+
+```mermaid
+graph LR
+    A[0] --- B[0] --- C[0] --- D[0] -- Unset --> E[0] --- F[1] --- G[1] --- H[1]
+```
