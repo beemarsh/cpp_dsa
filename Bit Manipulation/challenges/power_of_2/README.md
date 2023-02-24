@@ -29,3 +29,5 @@ graph LR
 ```
 
 Now, we get `0111`. Its decimal equivalent is: `7`.
+
+## Checking
