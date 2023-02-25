@@ -31,3 +31,5 @@ graph LR
 Now, we get `0111`. Its decimal equivalent is: `7`.
 
 ## Checking
+
+To check if a number is power of two, we perform AND operation on `a` and `a-1`
