@@ -33,3 +33,7 @@ Now, we get `0111`. Its decimal equivalent is: `7`.
 ## Checking
 
 To check if a number is power of two, we perform AND operation on `a` and `a-1`
+
+| a | a - 1 | a & a-1 |
+|-----------|-----------|-------------|
+|     1000  |     0111  |     0000    |
