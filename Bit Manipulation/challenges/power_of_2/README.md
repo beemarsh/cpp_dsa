@@ -37,3 +37,5 @@ To check if a number is power of two, we perform AND operation on `a` and `a-1`
 | a | a - 1 | a & a-1 |
 |-----------|-----------|-------------|
 |     1000  |     0111  |     0000    |
+
+ Since, `a` and `a-1` id 0. So the number is a power of `2`.
