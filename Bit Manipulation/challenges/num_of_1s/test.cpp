@@ -7,6 +7,7 @@ int main(){
 
 	int count = 0;
 
+	//Brian Kernighan's Algorithm
 	while(n){
 		n = n & (n-1);
 		count++;
