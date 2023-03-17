@@ -11,3 +11,5 @@ So, the number of set bits is : `2`.
 ## Brian Kernighan’s Algorithm
 
 Subtracting 1 from a decimal number flips all the bits after the rightmost set bit(which is 1) including the rightmost set bit.
+
+For example :
