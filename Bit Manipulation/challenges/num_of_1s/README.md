@@ -13,3 +13,8 @@ So, the number of set bits is : `2`.
 Subtracting 1 from a decimal number flips all the bits after the rightmost set bit(which is 1) including the rightmost set bit.
 
 For example :
+
+- 10 in binary is 00001010  
+- 9 in binary is 00001001  
+- 8 in binary is 00001000  
+- 7 in binary is 00000111  
