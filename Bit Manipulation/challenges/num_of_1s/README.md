@@ -25,3 +25,24 @@ If we do n & (n-1) in a loop and count the number of times the loop executes, we
 The beauty of this solution is the number of times it loops is equal to the number of set bits in a given integer.
 
 ## Code
+
+```cpp
+#include <iostream>
+
+int main(){
+	
+	int n;
+	std::cin >> n;
+
+	int count = 0;
+
+	//Brian Kernighan's Algorithm
+	while(n){
+		n &= (n-1);
+		count++;
+	}
+
+	std::cout << count;
+	return 0;
+}
+```
