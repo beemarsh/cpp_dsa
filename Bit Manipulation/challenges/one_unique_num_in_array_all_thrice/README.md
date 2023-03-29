@@ -34,3 +34,35 @@ In this way, we can loop through all the bits and find the number.
 	- If the bit is set, we increase `ones` by 1.
 	- If the bit is not set, we increase `zeroes` by 1.
 - After each loop, if the number of `ones` is a multiple of 3, then we update the result by setting the $i^{th}$ bit. i.e.`result |= (1 << i)`.
+
+## Code
+```cpp
+#include <iostream>
+
+int main(){
+
+	int n;
+	std::cin >> n;
+
+	int a[n];
+	for(int i=0;i<n;i++){
+		std::cin >> a[i];
+	}
+
+	int result = 0;
+
+	int SIZE = 32;
+
+	for(int i=0;i<SIZE;i++){
+		int ones=0,zeroes=0;
+		for(int j=0;j<n;j++){
+			if((1<<i) & a[j]) ones++;
+			else zeroes++;
+		}
+		if(ones%3) result |= 1 << i;
+
+	}
+
+	std::cout << result;
+	}
+```
