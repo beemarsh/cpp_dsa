@@ -21,3 +21,27 @@ We also know that XOR operation of any two same operands gives 0.
 So, we calculate the XOR of all numbers. The numbers that appear twice became 0 by `^` operation and only the unique number remains.
 
 ## Code
+
+```cpp
+#include<iostream>
+
+int main(){
+	int n;
+	std::cin >> n;
+
+	int a[n];
+	for(int i=0;i<n;i++){
+		std::cin >> a[i];
+	}
+
+	int xorSum = 0;
+
+	for(int i=0;i<n;i++){
+		xorSum = xorSum ^ a[i];
+	}
+
+	std::cout <<xorSum;
+	
+	return 0;
+}
+```
