@@ -20,6 +20,8 @@ We also know that XOR operation of any two same operands gives 0.
 
 So, we calculate the XOR of all numbers. The numbers that appear twice became 0 by `^` operation and only the unique number remains.
 
+
+
 ## Code
 
 ```cpp
