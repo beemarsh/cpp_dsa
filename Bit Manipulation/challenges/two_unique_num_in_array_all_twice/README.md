@@ -15,3 +15,9 @@ Lets look at the binary equivalent of each number above.
 |  Decimal  |  1  |  2  |  5  |  1  |  2  |  6  |
 |------|-----|-----|-----|-----|-----|-----|
 | Binary| 0001| 0010| 0001| 0010| 0101| 0110
+
+We also know that XOR operation of any two same operands gives 0.
+
+So, we calculate the XOR of all numbers. The numbers that appear twice became 0 by `^` operation and only the unique number remains.
+
+So at last what remains is the XOR of 5 and 6 i.e `xorSum = 5^6` Its binary equivalent is `011`
