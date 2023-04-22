@@ -28,7 +28,9 @@ The binary equivalent of xorSum is `011`. The right most bit is `1` which means 
 
 So if we XOR all the elements that have set bit at $0^{th}$ position with xorSum, we can get our number which doesnt have set bit at $0^{th}$ position.
 
-To get the number with set bit at $0^{th}$ position, we XOR the current xorSum with the previous xorSum.	
+To get the number with set bit at $0^{th}$ position, we XOR the current xorSum with the previous xorSum.
+
+
 
 ## Code
 
