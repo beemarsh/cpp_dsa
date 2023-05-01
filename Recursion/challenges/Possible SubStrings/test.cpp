@@ -1,16 +1,19 @@
 #include<iostream>
 
-void posssubstr(std::string str, std::string add){
-	if(str.length() == 0){
-		std::cout << add <<std::endl;
+const std::string keypad[] = {"","./","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+
+void retSUBS(std::string s, std::string ans){
+	if(s.length() == 0){
+		std::cout << ans << std::endl;
 		return;
 	}
-
-	posssubstr(str.substr(1), add);
-	posssubstr(str.substr(1), add + str[0]);
-}
+	
+	for(int i=0;i<keypad[s[0] - '0'].length();i++){
+		retSUBS(s.substr(1), ans + keypad[s[0] - '0'][i]);
+	}
+	}
 
 int main(){
-	posssubstr("ABC","");
+	retSUBS("379","");
 	return 0;
 }
