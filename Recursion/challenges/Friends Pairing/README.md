@@ -29,8 +29,6 @@ The base cases of the recursion are:
 
 By using this recurrence relation and considering the base cases, we can recursively calculate the total number of possible pairings for 'n' friends.
 
-The code provided in the previous example implements this recursive approach to solve the friends pairing problem.
-
 ## Complexity
 
 Time Complexity : O [ n ]
